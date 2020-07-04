@@ -42,9 +42,9 @@
 	color: #3B0F24;
 }
 .logo{
-	position: absolute;
-	height: 11vw;
-	width: 21vw;
+	position: relative;
+	height: 8vw;
+    width: 10vw;
 	top: 0vw;
 	left: 4vw;
 }
