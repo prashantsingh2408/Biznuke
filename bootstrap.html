@@ -1,6 +1,8 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <!-- Custom-->
+    <link href="css/bootstrap.css" rel="stylesheet" />
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -11,8 +13,116 @@
     <title>Hello, world!</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    Equal-width
+    <div class="container">
+        <div class="row">
+          <div class="col">
+            One  
+          </div>
+          <div class="col">
+            One 
+          </div>
+          <div class="col">
+            One 
+          </div>
+        </div>
+      </div>
+    </div>
 
+    Equal-width multi-line
+    <div class="container">
+        <div class="row">
+          <div class="col">col</div>
+          <div class="col">col</div>
+          <div class="w-100"></div>
+          <div class="col">col</div>
+          <div class="col">col</div>
+        </div>
+      </div>
+    Percentage
+    <div class="container">
+        <div class="row">
+          <div class="w-25">col</div>
+          <div class="w-50">col</div>
+          <div class="w-50">excced</div>
+        </div>
+      </div>
+    Setting one column width
+    <div class="container">
+        <div class="row">
+          <div class="col">
+            1 of 3
+          </div>
+          <div class="col-6">
+            2 of 3 (wider)col-6
+          </div>
+          <div class="col">
+            3 of 3
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            1 of 3
+          </div>
+          <div class="col-5">
+            2 of 3 (wider)col-5
+          </div>
+          <div class="col">
+            3 of 3
+          </div>
+        </div>
+      </div>
+    Variable width content
+    <div class="container">
+        <div class="row justify-content-md-center">
+          <div class="col col-lg-2">
+            1 of 3
+          </div>
+          <div class="col-md-auto">
+            Variable width content
+          </div>
+          <div class="col col-lg-2">
+            3 of 3
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            1 of 3
+          </div>
+          <div class="col-md-auto">
+            Variable width content
+          </div>
+          <div class="col col-lg-2">
+            3 of 3
+          </div>
+        </div>
+      </div>
+      Responsive classes
+      All breakpoints
+      <div class="container">
+        <div class="row">
+          <div class="col">col</div>
+          <div class="col">col</div>
+          <div class="col">col</div>
+          <div class="col">col</div>
+        </div>
+        <div class="row">
+          <div class="col-8">col-8</div>
+          <div class="col-4">col-4</div>
+        </div>
+      </div>
+      Stacked to horizontal
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8">col-sm-8</div>
+          <div class="col-sm-4">col-sm-4</div>
+        </div>
+        <div class="row">
+          <div class="col-sm">col-sm</div>
+          <div class="col-sm">col-sm</div>
+          <div class="col-sm">col-sm</div>
+        </div>
+      </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
