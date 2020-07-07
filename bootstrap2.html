@@ -3,6 +3,9 @@
         <link href="css/bootstrap2.css" 
         rel="stylesheet">
 
+        <!-- Bootstrap CSS -->
+        <!--change crossorigin="anonymous" to crossorigin="use-credentials" to remove logo bug but then slider become buggy-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" >
         <meta name="viewport" 
         content="width=device-width, initial-scale=1">
 
@@ -49,12 +52,11 @@
                     </div>
             </div>
         </nav>
-
         <div class="container">
             <div class="row">
 
-                <--! Right section -->
-                <div class="col-md-6">
+                <!-- Right section -->
+                <div class="col">
                     <p>
                         <span class="black-text">
                         India's only
@@ -79,9 +81,31 @@
                     
                 </div>
 
-                <--! Left Secton-->
-                <div class="col-md-6">
-                    
+                <!-- Left Secton -->
+                <div class="col">
+                                            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                          <!-- Indicators -->
+                          <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                          </ol>
+                      
+                          <!-- Wrapper for slides -->
+                          <div class="carousel-inner">
+                            <div class="item active">
+                              <img src="assets\Image 5@2x.png" alt="Los Angeles" style="width:100%;">
+                            </div>
+                      
+                            <div class="item">
+                              <img src="assets\Image 5@2x.png" alt="Chicago" style="width:100%;">
+                            </div>
+                          
+                            <div class="item">
+                              <img src="assets\Image 5@2x.png" alt="New york" style="width:100%;">
+                            </div>
+                          </div>
+                        </div>
                 </div>
             </div>
         </div>
