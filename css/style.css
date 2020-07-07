@@ -38,10 +38,6 @@
     background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.00) 100%);
 }
 .lorem{
-    top: 955px;
-    left: 1016px;
-    width: 483px;
-    height: 90px;
     text-align: left;
     font: Bold 38px/45px HK Grotesk;
     letter-spacing: 0px;
@@ -49,10 +45,6 @@
     opacity: 1;
 }
 .quis{
-    top: 1068px;
-    left: 1016px;
-    width: 701px;
-    height: 143px;
     text-align: left;
     font: Regular 24px/29px HK Grotesk;
     letter-spacing: 0px;
