@@ -37,14 +37,16 @@
     background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.00) 100%);
     background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.00) 100%);
 }
-.lorem{
+
+.lorem {
     text-align: left;
     font: Bold 38px/45px HK Grotesk;
     letter-spacing: 0px;
     color: #3B0F24;
     opacity: 1;
 }
-.quis{
+
+.quis {
     text-align: left;
     font: Regular 24px/29px HK Grotesk;
     letter-spacing: 0px;
@@ -52,48 +54,52 @@
     opacity: 0.7;
 }
 
-.black-text{
+.black-text {
     top: 0px;
     left: 0px;
     width: 235px;
     height: 53px;
     text-align: left;
-    font: Bold 44px/53px HK Grotesk;
+    font: Bold 30px/30px HK Grotesk;
     letter-spacing: 0px;
     color: #3B0F24;
 }
-.pink-text{
+
+.pink-text {
     top: 53px;
     left: 0px;
     width: 488px;
     height: 53px;
     text-align: left;
-    font: Bold 44px/53px HK Grotesk;
+    font: Bold 30px/30px HK Grotesk;
     letter-spacing: 0px;
     color: #EE3D97;
 }
-.coming-text{
+
+.coming-text {
     top: 458px;
     left: 187px;
     width: 137px;
     height: 29px;
     text-align: left;
-    font: Medium 24px/29px HK Grotesk;
+    font: Medium 30px/30px HK Grotesk;
     letter-spacing: 0px;
     color: #EE84B5;
     opacity: 1;
 }
-.p{
+
+.p {
     padding: 50px;
 }
-.b{
+
+.b {
     margin: 30px 10px;
     width: 150px;
     padding: 10px;
     border-radius: 20px;
 }
 
-.btn-first{
+.btn-first {
     /*
     top: 542px;
     left: 187px;
@@ -104,16 +110,17 @@
     border-radius: 4px;
     opacity: 1;
 }
-.btn-second{
+
+.btn-second {
     /*
 top: 554px;
 left: 432px;
 width: 100px;
 height: 24px;
 */
-text-align: left;
-font: Medium 20px/24px HK Grotesk;
-letter-spacing: 0px;
-color: #6C63FF;
-opacity: 1;
+    text-align: left;
+    font: Medium 20px/24px HK Grotesk;
+    letter-spacing: 0px;
+    color: #6C63FF;
+    opacity: 1;
 }
