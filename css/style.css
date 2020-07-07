@@ -6,28 +6,6 @@
     background-position: 0 -150px;
 }
 
-.india {
-    top: 0px;
-    left: 0px;
-    width: 235px;
-    height: 53px;
-    text-align: left;
-    font: Bold 30px/40px HK Grotesk;
-    letter-spacing: 0px;
-    color: #3B0F24;
-}
-
-.supplier {
-    top: 53px;
-    left: 0px;
-    width: 488px;
-    height: 53px;
-    text-align: left;
-    font: Bold 30px/40px HK Grotesk;
-    letter-spacing: 0px;
-    color: #EE3D97;
-}
-
 .transparent-bg {
     border-width: 0px;
     -webkit-box-shadow: 0px 0px;
@@ -60,7 +38,7 @@
     width: 235px;
     height: 53px;
     text-align: left;
-    font: Bold 40px/39px HK Grotesk;
+    font: Bold 25px/25px HK Grotesk;
     letter-spacing: 0px;
     color: #3B0F24;
 }
@@ -71,7 +49,7 @@
     width: 488px;
     height: 53px;
     text-align: left;
-    font: Bold 40px/39px HK Grotesk;
+    font: Bold 25px/25px HK Grotesk;
     letter-spacing: 0px;
     color: #EE3D97;
 }
@@ -82,7 +60,7 @@
     width: 137px;
     height: 29px;
     text-align: left;
-    font: Medium 20px/25px HK Grotesk;
+    font: Medium 25px/25px HK Grotesk;
     letter-spacing: 0px;
     color: #EE84B5;
     opacity: 1;
@@ -124,18 +102,24 @@ height: 24px;
     color: #6C63FF;
     opacity: 1;
 }
-.header{
+
+.header {
     height: 20vh;
     cross
 }
-.navbar-style{
+
+.navbar-style {
     box-shadow: 0 5px 10px #efefef;
 }
-.logo{
+
+.logo {
     height: 70px;
     padding: 1px 5px;
 }
+
+
 /* By default menu icon is white */
-.icon-bar{
+
+.icon-bar {
     background: darkorange;
 }
