@@ -60,7 +60,7 @@
     width: 235px;
     height: 53px;
     text-align: left;
-    font: Bold 30px/30px HK Grotesk;
+    font: Bold 40px/39px HK Grotesk;
     letter-spacing: 0px;
     color: #3B0F24;
 }
@@ -71,7 +71,7 @@
     width: 488px;
     height: 53px;
     text-align: left;
-    font: Bold 30px/30px HK Grotesk;
+    font: Bold 40px/39px HK Grotesk;
     letter-spacing: 0px;
     color: #EE3D97;
 }
@@ -82,17 +82,17 @@
     width: 137px;
     height: 29px;
     text-align: left;
-    font: Medium 30px/30px HK Grotesk;
+    font: Medium 20px/25px HK Grotesk;
     letter-spacing: 0px;
     color: #EE84B5;
     opacity: 1;
 }
 
-.p {
+p {
     padding: 50px;
 }
 
-.b {
+a {
     margin: 30px 10px;
     width: 150px;
     padding: 10px;
