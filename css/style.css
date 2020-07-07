@@ -124,3 +124,18 @@ height: 24px;
     color: #6C63FF;
     opacity: 1;
 }
+.header{
+    height: 20vh;
+    cross
+}
+.navbar-style{
+    box-shadow: 0 5px 10px #efefef;
+}
+.logo{
+    height: 70px;
+    padding: 1px 5px;
+}
+/* By default menu icon is white */
+.icon-bar{
+    background: darkorange;
+}
