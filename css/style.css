@@ -1,3 +1,4 @@
+
 * {
     padding: 0;
     margin: 0;
@@ -140,19 +141,6 @@ height: 24px;
     left: 12.2vw;
     width: 36.1vw;
     height: 34vw;
-    opacity: 1;
-}
-.lorem
-{
-    position: absolute;
-    top: 61vw;
-    left: 62vw;
-    width: 35vw;
-    height: 31vw;
-    text-align: left;
-    font: Bold 2.3vw HK Grotesk;
-    letter-spacing: 0vw;
-    color: #3B0F24;
     opacity: 1;
 }
 .content{
