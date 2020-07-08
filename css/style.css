@@ -119,9 +119,3 @@ a.nav-link {
 .navbar {
     background-color: #EE3D97;
 }
-
-.img-fluid {
-    max-width: 200px;
-    max-height: 200px;
-    margin-left: 200px;
-}
