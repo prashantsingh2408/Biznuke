@@ -103,25 +103,6 @@ height: 24px;
     opacity: 1;
 }
 
-.header {
-    height: 20vh;
-}
-
-.navbar-style {
-    box-shadow: 0 5px 10px #EFEFEF;
-}
-
-.logo {
-    height: 70px;
-    padding: 1px 5px;
-}
-
-
-/* By default menu icon is white */
-
-.icon-bar {
-    background: #EE84B5;
-}
 .navbar-brand{
     margin:0;
     padding: 0;
@@ -131,7 +112,8 @@ a.nav-link{
     margin:0;
     padding: 0;
     border: 0;
-}
-a{
     text-align: right;
+}
+.navbar{
+    background-color: #EE3D97;  ;
 }
