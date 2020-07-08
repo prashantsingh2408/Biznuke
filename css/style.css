@@ -67,7 +67,7 @@
 }
 
 p {
-    padding: 50px;
+    padding: 0px;
 }
 
 a {
@@ -108,7 +108,7 @@ height: 24px;
 }
 
 .navbar-style {
-    box-shadow: 0 5px 10px #EFEFEF;
+    box-shadow: 0 5px 10px #EE3D97;
 }
 
 .logo {
@@ -122,16 +122,19 @@ height: 24px;
 .icon-bar {
     background: #EE84B5;
 }
-.navbar-brand{
-    margin:0;
+
+.navbar-brand {
+    margin: 0;
     padding: 0;
     border: 0;
 }
-a.nav-link{
-    margin:0;
+
+a.nav-link {
+    margin: 0;
     padding: 0;
     border: 0;
 }
-a{
+
+a {
     text-align: right;
 }
