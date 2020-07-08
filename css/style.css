@@ -10,6 +10,7 @@
     background: url(../assets/Path\ 136\ \(3\).svg) no-repeat;
     background-size: cover;
     background-position: 0 -150px;
+    margin-left: ;
 }
 
 .transparent-bg {
@@ -36,7 +37,7 @@
     letter-spacing: 0px;
     color: #3B0F24;
     opacity: 0.7;
-    padding:0;
+    padding: 0;
 }
 
 .black-text {
@@ -51,7 +52,7 @@
 }
 
 .pink-text {
-     /*top: 53px;
+    /*top: 53px;
    left: 0px;*/
     width: 488px;
     height: 53px;
@@ -72,18 +73,15 @@
     opacity: 1;
 }
 
-
-
-a{
+a {
     margin: 30px 10px;
     width: 150px;
     padding: 10px;
     border-radius: 20px;
 }
 
-.button{
-    
-}
+.button {}
+
 .btn-first {
     /*
     top: 542px;
@@ -92,7 +90,7 @@ a{
     height: 54px;
     border-radius: 4px; 
     */
-    background: #FDF1F7 0% 0%  ;
+    background: #FDF1F7 0% 0%;
     opacity: 1;
 }
 
@@ -104,7 +102,6 @@ width: 100px;
 height: 24px;
  text-align: left;
 */
-
     font: Medium 20px/24px HK Grotesk;
     letter-spacing: 0px;
     color: #6C63FF;
@@ -131,7 +128,7 @@ a.nav-link {
 .people {
     max-width: 400px;
     max-height: 400px;
-    margin-left: 400px;
+    margin-left: 500px;
     margin-top: 40px;
 }
 
@@ -141,6 +138,7 @@ a.nav-link {
     margin-left: 150px;
     margin-top: 50px;
 }
+
 .hey {
     max-width: 400px;
     max-height: 400px;
@@ -159,6 +157,7 @@ a.nav-link {
     color: #3B0F24;
     opacity: 1;
 }
+
 .footer-a{
    /* top: 1614px;
     left: 1636px;
