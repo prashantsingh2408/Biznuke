@@ -36,6 +36,7 @@
     letter-spacing: 0px;
     color: #3B0F24;
     opacity: 0.7;
+    padding:0;
 }
 
 .black-text {
@@ -50,8 +51,8 @@
 }
 
 .pink-text {
-    top: 53px;
-    left: 0px;
+     /*top: 53px;
+   left: 0px;*/
     width: 488px;
     height: 53px;
     text-align: left;
@@ -71,26 +72,33 @@
     opacity: 1;
 }
 
-p {
-    padding: 50px;
-}
 
-a {
+
+a{
     margin: 30px 10px;
     width: 150px;
     padding: 10px;
     border-radius: 20px;
 }
 
+.button{
+    
+}
 .btn-first {
     /*
     top: 542px;
     left: 187px;
     width: 184px;
     height: 54px;
+    border-radius: 4px; 
     */
+<<<<<<< HEAD
+  
+    background: #FDF1F7 0% 0%  ;
+=======
     background: #FDF1F7 0% 0% no-repeat padding-box;
     border-radius: 4px;
+>>>>>>> 161b0557fbc62e4dc7ec2fd8d42be23b0ee40aab
     opacity: 1;
 }
 
@@ -100,9 +108,9 @@ top: 554px;
 left: 432px;
 width: 100px;
 height: 24px;
+ text-align: left;
 */
-    left: 187px;
-    text-align: left;
+
     font: Medium 20px/24px HK Grotesk;
     letter-spacing: 0px;
     color: #6C63FF;
@@ -129,7 +137,7 @@ a.nav-link {
 .people {
     max-width: 400px;
     max-height: 400px;
-    margin-left: 500px;
+    margin-left: 400px;
     margin-top: 40px;
 }
 
@@ -139,6 +147,7 @@ a.nav-link {
     margin-left: 150px;
     margin-top: 50px;
 }
+<<<<<<< HEAD
 
 .hey {
     max-width: 400px;
@@ -148,4 +157,27 @@ a.nav-link {
 }
 
 
+=======
+.footer-p{
+    top: 1614px;
+    left: 152px;
+    width: 468px;
+    height: 29px;
+    text-align: left;
+    font: Medium 24px/29px HK Grotesk;
+    letter-spacing: 0px;
+    color: #3B0F24;
+    opacity: 1;
+}
+.footer-a{
+    top: 1614px;
+    left: 1636px;
+    width: 143px;
+    height: 29px;
+    text-align: right;
+    font: Medium 24px/29px HK Grotesk;
+    letter-spacing: 0px;
+    color: #6C63FF;
+    opacity: 1;
+>>>>>>> 99d48201d51ce09f0c7678595a72eaeda1ff3f29
 }
