@@ -121,7 +121,15 @@ a.nav-link {
 }
 
 .people {
-    max-width: 200px;
-    max-height: 200px;
-    margin-left: 200px;
+    max-width: 400px;
+    max-height: 400px;
+    margin-left: 400px;
+    margin-top: 30px;
+}
+
+.women {
+    max-width: 400px;
+    max-height: 400px;
+    margin-left: 150px;
+    margin-top: 50px;
 }
