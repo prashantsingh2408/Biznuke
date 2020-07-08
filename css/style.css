@@ -1,8 +1,9 @@
-*{
-    padding:0;
-    margin:0;
-    border:0;
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
 }
+
 .hero-testimonials {
     width: 100%;
     height: 100vh;
@@ -43,7 +44,7 @@
     width: 235px;
     height: 53px;
     text-align: left;
-    font: Bold 26px/26px HK Grotesk;
+    font: Bold 28px/28px HK Grotesk;
     letter-spacing: 0px;
     color: #3B0F24;
 }
@@ -54,14 +55,13 @@
     width: 488px;
     height: 53px;
     text-align: left;
-    font: Bold 26px/26px HK Grotesk;
+    font: Bold 28px/28px HK Grotesk;
     letter-spacing: 0px;
     color: #EE3D97;
 }
 
 .coming-text {
     top: 458px;
-    
     width: 137px;
     height: 29px;
     text-align: left;
@@ -89,7 +89,6 @@ a {
     width: 184px;
     height: 54px;
     */
-  
     background: #FDF1F7 0% 0% no-repeat padding-box;
     border-radius: 4px;
     opacity: 1;
@@ -109,7 +108,6 @@ height: 24px;
     color: #6C63FF;
     opacity: 1;
 }
-
 
 .navbar-brand {
     margin: 0;
@@ -131,8 +129,8 @@ a.nav-link {
 .people {
     max-width: 400px;
     max-height: 400px;
-    margin-left: 400px;
-    margin-top: 30px;
+    margin-left: 500px;
+    margin-top: 40px;
 }
 
 .women {
