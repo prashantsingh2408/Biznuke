@@ -103,17 +103,25 @@ height: 24px;
     opacity: 1;
 }
 
-.navbar-brand{
-    margin:0;
+.navbar-brand {
+    margin: 0;
     padding: 0;
     border: 0;
 }
-a.nav-link{
-    margin:0;
+
+a.nav-link {
+    margin: 0;
     padding: 0;
     border: 0;
     text-align: right;
 }
-.navbar{
-    background-color:  #EE3D97; 
+
+.navbar {
+    background-color: #EE3D97;
+}
+
+.img-fluid {
+    max-width: 200px;
+    max-height: 200px;
+    margin-left: 200px;
 }
