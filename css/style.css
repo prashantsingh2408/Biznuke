@@ -92,13 +92,7 @@ a{
     height: 54px;
     border-radius: 4px; 
     */
-<<<<<<< HEAD
-  
     background: #FDF1F7 0% 0%  ;
-=======
-    background: #FDF1F7 0% 0% no-repeat padding-box;
-    border-radius: 4px;
->>>>>>> 161b0557fbc62e4dc7ec2fd8d42be23b0ee40aab
     opacity: 1;
 }
 
@@ -147,17 +141,12 @@ a.nav-link {
     margin-left: 150px;
     margin-top: 50px;
 }
-<<<<<<< HEAD
-
 .hey {
     max-width: 400px;
     max-height: 400px;
     margin-left: 150px;
     margin-top: 50px;
 }
-
-
-=======
 .footer-p{
     top: 1614px;
     left: 152px;
@@ -179,5 +168,4 @@ a.nav-link {
     letter-spacing: 0px;
     color: #6C63FF;
     opacity: 1;
->>>>>>> 99d48201d51ce09f0c7678595a72eaeda1ff3f29
 }
