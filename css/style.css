@@ -114,11 +114,79 @@ height: 24px;
     border: 0;
 }
 
-a.nav-link {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    text-align: right;
+.blog{
+    position: absolute;
+    top: 49vw;
+    left: 50vw;
+    width: 3vw;
+    height: 2vw;
+    text-align: left;
+    font: Medium 24px/29px HK Grotesk;
+    letter-spacing: 0vw;
+    color: #3B0F24;
+    opacity: 1;
+}
+.svg1
+{
+    position: absolute;
+    height: 42vw;
+    width: 54vw;
+    top: 54vw;
+    left: 0vw;
+}
+.screensot{
+    position: absolute;
+    top: 59vw;
+    left: 12.2vw;
+    width: 36.1vw;
+    height: 34vw;
+    opacity: 1;
+}
+.lorem
+{
+    position: absolute;
+    top: 61vw;
+    left: 62vw;
+    width: 35vw;
+    height: 31vw;
+    text-align: left;
+    font: Bold 2.3vw HK Grotesk;
+    letter-spacing: 0vw;
+    color: #3B0F24;
+    opacity: 1;
+}
+.content{
+    position: absolute;
+    top: 69vw;
+    left: 62vw;
+    width: -2vw;
+    height: 12vw;
+    text-align: left;
+    font: Regular 24px/29px HK Grotesk;
+    letter-spacing: 0vw;
+    color: #3B0F24;
+    opacity: 0.7;
+}
+.more{
+    position: absolute;
+    top: 76vw;
+    left: 62vw;
+    width: 7vw;
+    height: 2vw;
+    text-align: left;
+    font: Medium 24px/29px HK Grotesk;
+    letter-spacing: 0vw;
+    color: #6C63FF;
+    opacity: 1;
+}
+.line3{
+    position: absolute;
+    top: 99vw;
+    left: 0vw;
+    width: 100vw;
+    height: 0vw;
+    border: vw solid #E2E2E2;
+    opacity: 1;
 }
 
 .navbar {
