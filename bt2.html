@@ -22,11 +22,11 @@
     <!--Navbar(logo and home,login...-->
     <!--sticky-top : fix navbar on top while on scrolling down-->
 
-    <nav class="navbar sticky-top navbar-expand-sm bg-light navbar-light ">
+    <nav class="navbar sticky-top navbar-expand-sm navbar-light ">
 
         <!--Logo-->
         <a class="navbar-brand" href="#">
-            <img src="assets\logo@2x.png" class="img-fluid">
+            <img src="assets\logo@2x.png" class="img-fluid pl-5">
         </a>
 
         <!--ml-auto mr-1 move the content on right side-->
@@ -64,7 +64,7 @@
                         platform for e-commerce
                         </span>
                     </br>
-
+                    </br>
                     <span class="coming-text">
                             Coming soon
                         </span>
@@ -72,10 +72,27 @@
                 <a class="btn btn-first" href="#">Watch Video</a>
                 <a class="btn btn-second" href="#">Know More</a>
             </div>
-            <div class="col-12 col-sm-8 position-relative hero-testimonials">
 
-                </a>
-                <img class="people" src="assets\people-call-me-indian-man-turb@2x.png">
+            <!--Left People section-->
+            <div class="col-12 col-sm-8 position-relative hero-testimonials">   
+                <!--slider-->
+                <div class="container"> 
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                      <!-- Indicators -->
+                      <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                      </ol>
+                  
+                      <!-- Wrapper for slides -->
+                      <div class="carousel-inner">
+                        <div class="item active">
+                            <img class="people" src="assets\people-call-me-indian-man-turb@2x.png" id="myCarousel">
+                        </div>
+                      </div>
+                    </div>                
+                <hr>
             </div>
             </hr>
         </div>
@@ -84,6 +101,7 @@
 
     <!-- Down part-->
 
+    <!--navigation slider -->
     <div class="container-fluid">
         <div class="row">
             <div class="col-12 col-sm-7 position-relative ">
@@ -100,12 +118,6 @@
             </div>
         </div>
     </div>
-
-
-
-
-
-
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
