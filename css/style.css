@@ -174,26 +174,30 @@ height: 24px;
     color: #6C63FF;
     opacity: 1;
 }
+
 .carousel-indicators li {
     width: 10px;
     height: 10px;
     border-radius: 100%;
-    background-color:#D3288D;
-  }
-.carousel-caption h5{
+    background-color: #D3288D;
+}
+
+.carousel-caption h5 {
     font: Light Italic 23px/28px HK Grotesk;
     letter-spacing: 0px;
     color: #3B0F24;
     opacity: 1;
-  }
-.carousel-caption p{
+}
+
+.carousel-caption p {
     font: Medium 24px/29px HK Grotesk;
     letter-spacing: 0px;
     color: #3B0F24;
     opacity: 1;
 }
-.carousel-caption li{
-    color:#D3288D;
+
+.carousel-caption li {
+    color: #D3288D;
 }
 
 .logo2 {
@@ -263,5 +267,17 @@ height: 24px;
     font: Medium 24px/29px HK Grotesk;
     letter-spacing: 0px;
     color: #EE84B5;
+    opacity: 1;
+}
+
+.work {
+    height: 65px;
+    width: 130px;
+    margin-top: 5px;
+    margin-left: 100px;
+    text-align: left;
+    font: Medium 25px/25px HK Grotesk;
+    letter-spacing: 0px;
+    color: #3B0F24;
     opacity: 1;
 }
