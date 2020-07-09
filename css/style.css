@@ -38,6 +38,7 @@
     opacity: 0.7;
     padding: 0;
 }
+
 .black-text {
     top: 0px;
     left: 0px;
@@ -48,6 +49,7 @@
     letter-spacing: 0px;
     color: #3B0F24;
 }
+
 .pink-text {
     /*top: 53px;
    left: 0px;*/
@@ -69,12 +71,14 @@
     color: #EE84B5;
     opacity: 1;
 }
-a.navbar-brand{
+
+a.navbar-brand {
     margin: 0;
     width: 180px;
     padding: 0;
     border-radius: 20px;
 }
+
 .btn-first {
     /*
     top: 542px;
@@ -119,6 +123,7 @@ height: 24px;
     color: #3B0F24;
     opacity: 1;
 }
+
 .navbar {
     background-color: #EE3D97;
 }
@@ -127,14 +132,16 @@ height: 24px;
     max-width: 400px;
     max-height: 400px;
     margin-left: 500px;
-    margin-top: 30px;
+    margin-top: -2px;
 }
+
 .women {
     max-width: 400px;
     max-height: 400px;
     margin-left: 150px;
     margin-top: 50px;
 }
+
 .hey {
     max-width: 400px;
     max-height: 400px;
