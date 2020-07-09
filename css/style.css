@@ -264,3 +264,9 @@ height: 24px;
     color: #EE84B5;
     opacity: 1;
 }
+#register{
+    visibility: visible;
+}
+#about-biznuke, #howItWorks, #blog{
+    visibility: hidden;
+}
