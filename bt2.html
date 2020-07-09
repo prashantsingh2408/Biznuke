@@ -101,24 +101,32 @@
             </div>
         </div>
         <!-- Down section-->
-        <!--navigation slider -->
+        <!--navigation bar-->
         <ul class="nav">
             <li class="nav-item">
-                <a class="nav-link " href="#">Register  </a>
+                <a class="nav-link " href="#" onclick="displayRegister()">Register  </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link active" href="#">About BizNuke</a>
+                <a class="nav-link active" href="#"  onclick="displayaboutBiznuke()">About BizNuke</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">How it works</a>
+                <a class="nav-link" href="#" onclick="displayhowItWorks()">How it works</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Blog</a>
+                <a class="nav-link" href="#" onclick="displayblog()">Blog</a>
             </li>
         </ul>
 
         <!--Content of navigation slider-->
-        <div class="container-fluid">
+        <!--contnet of Register-->
+        <div class="container-fluid" id="register" >
+            <div class="row">
+               
+            </div>
+        </div>
+        
+        <!--Content of About BizNuke -->
+        <div class="container-fluid" id="about-biznuke" >
             <div class="row">
                 <div class="col-12 col-sm-7 position-relative ">
                     </a>
@@ -137,7 +145,45 @@
             </div>
         </div>
 
-        <!--Footer-->
+        <!--Content of How it works -->
+        <div class="container-fluid" id="howItWorks" >
+            <div class="row">
+               
+            </div>
+        </div>
+
+        <!--Navigation bar script-->
+        <script>
+            function displayRegister() {
+                 document.getElementById("register").style.visibility="visible";
+                 document.getElementById("about-biznuke").style.visibility="hidden";
+                 document.getElementById("howItWorks").style.visibility="hidden";
+                  document.getElementById("blog").style.visibility="hidden";
+            }
+            function displayaboutBiznuke() {
+                 document.getElementById("register").style.visibility="hidden";
+                 document.getElementById("about-biznuke").style.visibility="visible";
+                 document.getElementById("howItWorks").style.visibility="hidden";
+                 document.getElementById("blog").style.visibility="hidden";
+            }
+            function displayhowItWorks() {
+                document.getElementById("register").style.visibility="hidden";
+                 document.getElementById("about-biznuke").style.visibility="hidden";
+                 document.getElementById("howItWorks").style.visibility="visible";
+                 document.getElementById("blog").style.visibility="hidden";}
+            function displayblog() {
+                document.getElementById("register").style.visibility="hidden";
+                document.getElementById("about-biznuke").style.visibility="hidden";
+                document.getElementById("howItWorks").style.visibility="hidden";
+                 document.getElementById("blog").style.visibility="visible";}
+        </script>
+        
+        <!--Footer Blog-->
+        <div class="container-fluid" id="blog" >
+            <div class="row">
+               
+            </div>
+        </div>
         <footer>
             <p class="footer-p">
                 © All right reserved 2020, BizNuke Pvt. Ltd.
@@ -146,6 +192,7 @@
             Privacy Policy
         </a>
         </footer>
+
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
