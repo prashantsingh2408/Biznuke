@@ -190,8 +190,8 @@ height: 24px;
 }
 
 .lorem1 {
-    margin-left: 14px;
-    margin-top: 216px;
+    margin-left: 45px;
+    margin-top: 110px;
     width: 380px;
     text-align: left;
     font: Bold 20px/20px HK Grotesk;
@@ -201,8 +201,43 @@ height: 24px;
 }
 
 .dt {
-    margin-top: 13px;
-    margin-left: 0px;
+    margin-top: 10px;
+    margin-left: 32px;
+    text-align: left;
+    font: Medium 24px/29px HK Grotesk;
+    letter-spacing: 0px;
+    color: #EE84B5;
+    opacity: 1;
+}
+
+.logo5 {
+    height: 65px;
+    width: 130px;
+    margin-top: 5px;
+    margin-left: 100px;
+}
+
+.laptop2 {
+    height: 295px;
+    width: 525px;
+    margin-top: 0px;
+    margin-left: 415px;
+}
+
+.lorem2 {
+    margin-left: 443px;
+    margin-top: 0px;
+    width: 470px;
+    text-align: left;
+    font: Bold 20px/20px HK Grotesk;
+    letter-spacing: 0px;
+    color: #3B0F24;
+    opacity: 1;
+}
+
+.dt2 {
+    margin-top: 53px;
+    margin-left: -324px;
     text-align: left;
     font: Medium 24px/29px HK Grotesk;
     letter-spacing: 0px;
