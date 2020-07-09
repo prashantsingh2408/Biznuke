@@ -179,20 +179,20 @@ height: 24px;
     height: 80px;
     width: 150px;
     margin-top: 5px;
-    margin-left: 100px;
+    margin-left: 136px;
 }
 
 .laptop {
-    height: 200px;
-    width: 400px;
-    margin-top: 150px;
-    margin-left: -416px;
+    height: 271px;
+    width: 515px;
+    margin-top: 76px;
+    margin-left: 170px;
 }
 
 .lorem1 {
-    margin-left: 540px;
-    margin-top: -203px;
-    margin-right: 100px;
+    margin-left: 14px;
+    margin-top: 216px;
+    width: 380px;
     text-align: left;
     font: Bold 20px/20px HK Grotesk;
     letter-spacing: 0px;
@@ -200,8 +200,12 @@ height: 24px;
     opacity: 1;
 }
 
-.blog {
-    margin-left: 540px;
-    margin-top: -203px;
-    margin-right: 100px;
+.dt {
+    margin-top: 13px;
+    margin-left: 0px;
+    text-align: left;
+    font: Medium 24px/29px HK Grotesk;
+    letter-spacing: 0px;
+    color: #EE84B5;
+    opacity: 1;
 }
