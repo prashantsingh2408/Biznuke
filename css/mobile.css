@@ -7,6 +7,8 @@
             background-position: center;
         }
         .lorem {
+            margin-left: 20px;
+            width: 313px;
             text-align: left;
             font: Bold 25px/25px HK Grotesk;
             letter-spacing: 0px;
@@ -14,6 +16,8 @@
             opacity: 1;
         }
         .quis {
+            margin-left: 22px;
+            width: 322px;
             text-align: left;
             font: Regular 25px/25px HK Grotesk;
             letter-spacing: 0px;
@@ -112,5 +116,11 @@ height: 24px;
             margin-left: 19px;
             margin-top: 100px;
             margin-bottom: 100px;
+          }
+          .carousel-caption{
+            text-align: left;
+            margin-left:-41px;
+            margin-top:181px;
+            width: 180px;
           }
           

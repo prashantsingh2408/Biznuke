@@ -36,8 +36,8 @@
 }
 
 .lorem {
-  margin-top: 110px;
-  margin-left: 0px;
+  margin-top: 65px;
+  margin-left: 45px;
   width: 385px;
   text-align: left;
   font: Bold 30px/30px HK Grotesk;
@@ -48,7 +48,7 @@
 
 .quis {
   margin-top: -20px;
-  margin-left: 1px;
+  margin-left: 46px;
   width: 390px;
   text-align: left;
   font: Regular 25px/25px HK Grotesk;
@@ -184,9 +184,9 @@ a.navbar-brand {
   text-decoration: underline;
 }
 .people {
-  max-width: 400px;
+  max-width: 289px;
   max-height: 338px;
-  margin-left: 480px;
+  margin-left: 485px;
   margin-top: 32px;
 }
 
@@ -200,7 +200,7 @@ a.navbar-brand {
 .hey {
   max-width: 400px;
   max-height: 400px;
-  margin-left: 150px;
+  margin-left: 48px;
   margin-top: 177px;
 }
 
@@ -438,4 +438,8 @@ a.navbar-brand {
   font: Medium 18px/21px HK Grotesk;
   letter-spacing: 0px;
   color: #FFFFFF;
+}
+footer img{
+    height:30px ;
+    width:30px ;
 }
