@@ -6,7 +6,7 @@
 
 .hero-testimonials {
   width: 100%;
-  background: url(../assets/Path\136\\(3\).svg) no-repeat;
+  background: url(../assets/Path\ 136\ \(3\).svg) no-repeat;
   background-size: cover;
   background-position: 0 -150px;
 }
@@ -228,7 +228,7 @@ a.navbar-brand {
   text-align: right;
   font: Medium 24px/29px HK Grotesk;
   letter-spacing: 0px;
-  color: #6C63FF
+  color: #6c63ff;
   opacity: 1;
 }
 
@@ -385,20 +385,7 @@ a.navbar-brand {
   opacity: 1;
 }
 
-.btn.btn-primary {
-  /*button*/
-  background: #af0d64 0% 0% no-repeat padding-box;
-  border-radius: 4px;
-  opacity: 1;
-  /*font*/
-  text-align: left;
-  font: Bold 18px/21px HK Grotesk;
-  letter-spacing: 0px;
-  color: #ffffff;
-  opacity: 1;
-}
-
-.btn.btn-register :active {
+.btn.btn-register {
   /*button*/
   background: #af0d64 0% 0% no-repeat padding-box;
   border-radius: 4px;
@@ -413,24 +400,34 @@ a.navbar-brand {
 
 .btn.btn-form {
   /*button*/
-  background: #fdf1f7 0% 0% no-repeat padding-box;
+  top: 1242px;
+  left: 1134px;
+  width: 109px;
+  height: 48px;
+  background: #FDF1F7 0% 0% no-repeat padding-box;
   border-radius: 4px;
   opacity: 1;
   /*text*/
   text-align: left;
   font: Medium 18px/21px HK Grotesk;
   letter-spacing: 0px;
-  color: #d3288d;
+  color: #D3288D;
+  opacity: 1;
 }
 
-.btn.btn-form :active {
+.btn.btn-form :hover {
   /*button*/
-  background: #ee3d97 0% 0% no-repeat padding-box;
+  top: 1242px;
+  left: 1134px;
+  width: 109px;
+  height: 48px;
+  background: #EE3D97 0% 0% no-repeat padding-box;
   border-radius: 4px;
   opacity: 1;
   /*text*/
   text-align: left;
   font: Medium 18px/21px HK Grotesk;
   letter-spacing: 0px;
-  color: #d3288d;
+  color: #FFFFFF;
+  opacity: 1;
 }
