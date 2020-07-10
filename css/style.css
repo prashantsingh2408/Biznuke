@@ -455,3 +455,10 @@ footer img{
   color:#EE84B5;
   opacity:1;
 }
+
+/*vertical line*/
+.vl {
+  border-left: 1px solid black;
+  height: 35px;
+  position: absolute;
+}
