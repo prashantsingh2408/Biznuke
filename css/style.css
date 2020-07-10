@@ -281,12 +281,12 @@ height: 29px;
     opacity: 1;
 }
 #register {
-    visibility: visible;
+    visibility: block;
 }
 #about-biznuke,
 #howItWorks,
 #blog {
-    visibility: hidden;
+    display:none;
 }
 .tested {
     margin-top: 268px;
