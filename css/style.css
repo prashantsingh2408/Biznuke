@@ -443,3 +443,15 @@ footer img{
     height:30px ;
     width:30px ;
 }
+
+/*
+**BlOG
+*/
+
+.secondJune{
+  text-align:left;
+  font:Medium 24px/29px HK Grotesk;
+  letter-spacing: 0px;
+  color:#EE84B5;
+  opacity:1;
+}
