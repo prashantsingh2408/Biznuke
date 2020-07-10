@@ -162,7 +162,7 @@ a.navbar-brand {
 }
 
 .navbar {
-  background-color: #ee3d97;
+
 }
 
 .nav-down {
@@ -459,6 +459,10 @@ footer img{
 /*vertical line*/
 .vl {
   border-left: 1px solid black;
-  height: 35px;
-  position: absolute;
+  height: 50%;
+  
+}
+.back-img{
+  height: 70%;
+  width: 5%;
 }
