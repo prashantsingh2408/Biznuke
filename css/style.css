@@ -84,7 +84,7 @@ a.navbar-brand {
     border-radius: 20px;
 }
 
-.btn-first {
+.btn-first :hover, .btn-second :hover{
     /*
     top: 542px;
     left: 187px;
@@ -92,22 +92,27 @@ a.navbar-brand {
     height: 54px;
     border-radius: 4px; 
     */
-    background: #FDF1F7 0% 0%;
+    background: #FDF1F7 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    opacity: 1;
+
+    /*text*/
+    text-align: left;
+    font: Bold 20px/24px HK Grotesk;
+    letter-spacing: 0px;
+    color: #D3288D;
     opacity: 1;
 }
+.btn-first, .btn-second{
+  border-radius: 4px;
+  opacity: 1;
 
-.btn-second {
-    /*
-    top: 554px;
-    left: 432px;
-    width: 100px;
-    height: 24px;
-    text-align: left;
-    */
-    font: Medium 20px/24px HK Grotesk;
-    letter-spacing: 0px;
-    color: #6C63FF;
-    opacity: 1;
+  /*text*/
+  text-align: left;
+  font: Bold 20px/24px HK Grotesk;
+  letter-spacing: 0px;
+  color: #6C63FF;
+  opacity: 1;
 }
 
 .navbar-brand {
