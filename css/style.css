@@ -1,109 +1,113 @@
 * {
-    padding: 0;
-    margin: 0;
-    border: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
 }
 
 .hero-testimonials {
-    width: 100%;
-    background: url(../assets/Path\ 136\ \(3\).svg) no-repeat;
-    background-size: cover;
-    background-position: 0 -150px;
+  width: 100%;
+  background: url(../assets/Path\136\\(3\).svg) no-repeat;
+  background-size: cover;
+  background-position: 0 -150px;
 }
 
 .transparent-bg {
-    border-width: 0px;
-    -webkit-box-shadow: 0px 0px;
-    box-shadow: 0px 0px;
-    background-color: rgba(0, 0, 0, 0.0);
-    background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0%, rgba(0, 0, 0, 0.00)), color-stop( 100%, rgba(0, 0, 0, 0.00)));
-    background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.00) 100%);
-    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.00) 100%);
+  border-width: 0px;
+  -webkit-box-shadow: 0px 0px;
+  box-shadow: 0px 0px;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: -webkit-gradient(
+    linear,
+    50% 0%,
+    50% 100%,
+    color-stop(0%, rgba(0, 0, 0, 0)),
+    color-stop(100%, rgba(0, 0, 0, 0))
+  );
+  background-image: -webkit-linear-gradient(
+    270deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  background-image: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
 }
 
 .lorem {
-    margin-top: 110px;
-    margin-left: 0px;
-    width: 385px;
-    text-align: left;
-    font: Bold 30px/30px HK Grotesk;
-    letter-spacing: 0px;
-    color: #3B0F24;
-    opacity: 1;
+  margin-top: 110px;
+  margin-left: 0px;
+  width: 385px;
+  text-align: left;
+  font: Bold 30px/30px HK Grotesk;
+  letter-spacing: 0px;
+  color: #3b0f24;
+  opacity: 1;
 }
 
 .quis {
-    margin-top: -20px;
-    margin-left: 1px;
-    width: 390px;
-    text-align: left;
-    font: Regular 25px/25px HK Grotesk;
-    letter-spacing: 0px;
-    color: #3B0F24;
-    opacity: 0.7;
-    padding: 0;
+  margin-top: -20px;
+  margin-left: 1px;
+  width: 390px;
+  text-align: left;
+  font: Regular 25px/25px HK Grotesk;
+  letter-spacing: 0px;
+  color: #3b0f24;
+  opacity: 0.7;
+  padding: 0;
 }
 
 .black-text {
-    top: 0px;
-    left: 0px;
-    width: 235px;
-    height: 53px;
-    text-align: left;
-    font: Bold 28px/28px HK Grotesk;
-    letter-spacing: 0px;
-    color: #3B0F24;
+  top: 0px;
+  left: 0px;
+  width: 235px;
+  height: 53px;
+  text-align: left;
+  font: Bold 28px/28px HK Grotesk;
+  letter-spacing: 0px;
+  color: #3b0f24;
 }
 
 .pink-text {
-    /*top: 53px;
+  /*top: 53px;
     left: 0px;*/
-    width: 488px;
-    height: 53px;
-    text-align: left;
-    font: Bold 28px/28px HK Grotesk;
-    letter-spacing: 0px;
-    color: #EE3D97;
+  width: 488px;
+  height: 53px;
+  text-align: left;
+  font: Bold 28px/28px HK Grotesk;
+  letter-spacing: 0px;
+  color: #ee3d97;
 }
 
 .coming-text {
-    top: 458px;
-    width: 137px;
-    height: 29px;
-    text-align: left;
-    font: bold 15px/15px HK Grotesk;
-    letter-spacing: 0px;
-    color: #EE84B5;
-    opacity: 1;
+  top: 458px;
+  width: 137px;
+  height: 29px;
+  text-align: left;
+  font: bold 15px/15px HK Grotesk;
+  letter-spacing: 0px;
+  color: #ee84b5;
+  opacity: 1;
 }
 
 a.navbar-brand {
-    margin: 0;
-    width: 180px;
-    padding: 0;
-    border-radius: 20px;
+  margin: 0;
+  width: 180px;
+  padding: 0;
+  border-radius: 20px;
 }
 
-.btn-first :hover, .btn-second :hover{
-    /*
+.btn-first :hover,
+.btn-second :hover {
+  /*
     top: 542px;
     left: 187px;
     width: 184px;
     height: 54px;
     border-radius: 4px; 
     */
-    background: #FDF1F7 0% 0% no-repeat padding-box;
-    border-radius: 4px;
-    opacity: 1;
-
-    /*text*/
-    text-align: left;
-    font: Bold 20px/24px HK Grotesk;
-    letter-spacing: 0px;
-    color: #D3288D;
-    opacity: 1;
-}
-.btn-first, .btn-second{
+  background: #fdf1f7 0% 0% no-repeat padding-box;
   border-radius: 4px;
   opacity: 1;
 
@@ -111,281 +115,311 @@ a.navbar-brand {
   text-align: left;
   font: Bold 20px/24px HK Grotesk;
   letter-spacing: 0px;
-  color: #6C63FF;
+  color: #d3288d;
+  opacity: 1;
+}
+.btn-first,
+.btn-second {
+  border-radius: 4px;
+  opacity: 1;
+
+  /*text*/
+  text-align: left;
+  font: Bold 20px/24px HK Grotesk;
+  letter-spacing: 0px;
+  color: #6c63ff;
   opacity: 1;
 }
 
 .navbar-brand {
-    margin: 0;
-    padding: 0;
-    border: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
 .blog {
-    position: absolute;
-    top: 49vw;
-    left: 50vw;
-    width: 3vw;
-    height: 2vw;
-    text-align: left;
-    font: Medium 24px/29px HK Grotesk;
-    letter-spacing: 0vw;
-    color: #3B0F24;
-    opacity: 1;
+  position: absolute;
+  top: 49vw;
+  left: 50vw;
+  width: 3vw;
+  height: 2vw;
+  text-align: left;
+  font: Medium 24px/29px HK Grotesk;
+  letter-spacing: 0vw;
+  color: #3b0f24;
+  opacity: 1;
 }
 
 .navbar {
-    background-color: #EE3D97;
+  background-color: #ee3d97;
 }
 
+.nav-down {
+  /*text*/
+  text-align: left;
+  font: Medium 24px/29px HK Grotesk;
+  letter-spacing: 0px;
+  color: #3b0f24;
+  opacity: 1;
+}
+
+.nav-down :hover {
+  /*text*/
+  text-align: left;
+  font: Bold 24px/29px HK Grotesk;
+  letter-spacing: 0px;
+  color: #ee3d97;
+  opacity: 1;
+  text-decoration: underline;
+}
 .people {
-    max-width: 400px;
-    max-height: 338px;
-    margin-left: 480px;
-    margin-top: 32px;
+  max-width: 400px;
+  max-height: 338px;
+  margin-left: 480px;
+  margin-top: 32px;
 }
 
 .women {
-    max-width: 400px;
-    max-height: 400px;
-    margin-left: 150px;
-    margin-top: 50px;
+  max-width: 400px;
+  max-height: 400px;
+  margin-left: 150px;
+  margin-top: 50px;
 }
 
 .hey {
-    max-width: 400px;
-    max-height: 400px;
-    margin-left: 150px;
-    margin-top: 177px;
+  max-width: 400px;
+  max-height: 400px;
+  margin-left: 150px;
+  margin-top: 177px;
 }
 
 .footer p {
-    /*
+  /*
     top: 1614px;
     left: 152px;
     width: 468px;
     height: 29px;
     */
-    text-align: left;
-    font: Medium 24px/29px HK Grotesk;
-    letter-spacing: 0px;
-    color: #3B0F24;
-    opacity: 1;
+  text-align: left;
+  font: Medium 24px/29px HK Grotesk;
+  letter-spacing: 0px;
+  color: #3b0f24;
+  opacity: 1;
 }
 
 .footer a {
-    /*
+  /*
     top: 1614px;
     left: 1636px;
     width: 143px;
     height: 29px;
     */
-    text-align: right;
-    font: Medium 24px/29px HK Grotesk;
-    letter-spacing: 0px;
-    color: #6C63FF;
-    opacity: 1;
+  text-align: right;
+  font: Medium 24px/29px HK Grotesk;
+  letter-spacing: 0px;
+  color: #6c63ff;
+  opacity: 1;
 }
 
 .carousel-indicators li {
-    width: 10px;
-    height: 10px;
-    border-radius: 100%;
-    background-color: #D3288D;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: #d3288d;
 }
 
 .carousel-caption h5 {
-    font: Light Italic 23px/28px HK Grotesk;
-    letter-spacing: 0px;
-    color: #3B0F24;
-    opacity: 1;
+  font: Light Italic 23px/28px HK Grotesk;
+  letter-spacing: 0px;
+  color: #3b0f24;
+  opacity: 1;
 }
 
 .carousel-caption p {
-    font: Medium 24px/29px HK Grotesk;
-    letter-spacing: 0px;
-    color: #3B0F24;
-    opacity: 1;
+  font: Medium 24px/29px HK Grotesk;
+  letter-spacing: 0px;
+  color: #3b0f24;
+  opacity: 1;
 }
 
 .carousel-caption li {
-    color: #D3288D;
+  color: #d3288d;
 }
 
 .logo2 {
-    height: 80px;
-    width: 150px;
-    margin-top: 5px;
-    margin-left: 136px;
+  height: 80px;
+  width: 150px;
+  margin-top: 5px;
+  margin-left: 136px;
 }
 
 .laptop {
-    height: 271px;
-    width: 515px;
-    margin-top: 76px;
-    margin-left: 170px;
+  height: 271px;
+  width: 515px;
+  margin-top: 76px;
+  margin-left: 170px;
 }
 
 .lorem1 {
-    margin-left: 45px;
-    margin-top: 110px;
-    width: 380px;
-    text-align: left;
-    font: Bold 20px/20px HK Grotesk;
-    letter-spacing: 0px;
-    color: #3B0F24;
-    opacity: 1;
+  margin-left: 45px;
+  margin-top: 110px;
+  width: 380px;
+  text-align: left;
+  font: Bold 20px/20px HK Grotesk;
+  letter-spacing: 0px;
+  color: #3b0f24;
+  opacity: 1;
 }
 
 .dt {
-    margin-top: 10px;
-    margin-left: 32px;
-    text-align: left;
-    font: Medium 24px/29px HK Grotesk;
-    letter-spacing: 0px;
-    color: #EE84B5;
-    opacity: 1;
+  margin-top: 10px;
+  margin-left: 32px;
+  text-align: left;
+  font: Medium 24px/29px HK Grotesk;
+  letter-spacing: 0px;
+  color: #ee84b5;
+  opacity: 1;
 }
 
 .logo5 {
-    height: 65px;
-    width: 130px;
-    margin-top: 5px;
-    margin-left: 100px;
+  height: 65px;
+  width: 130px;
+  margin-top: 5px;
+  margin-left: 100px;
 }
 
 .laptop2 {
-    height: 295px;
-    width: 525px;
-    margin-top: 0px;
-    margin-left: 415px;
+  height: 295px;
+  width: 525px;
+  margin-top: 0px;
+  margin-left: 415px;
 }
 
 .lorem2 {
-    margin-left: 443px;
-    margin-top: 0px;
-    width: 470px;
-    text-align: left;
-    font: Bold 20px/20px HK Grotesk;
-    letter-spacing: 0px;
-    color: #3B0F24;
-    opacity: 1;
+  margin-left: 443px;
+  margin-top: 0px;
+  width: 470px;
+  text-align: left;
+  font: Bold 20px/20px HK Grotesk;
+  letter-spacing: 0px;
+  color: #3b0f24;
+  opacity: 1;
 }
 
 .dt2 {
-    margin-top: 53px;
-    margin-left: -324px;
-    text-align: left;
-    font: Medium 24px/29px HK Grotesk;
-    letter-spacing: 0px;
-    color: #EE84B5;
-    opacity: 1;
+  margin-top: 53px;
+  margin-left: -324px;
+  text-align: left;
+  font: Medium 24px/29px HK Grotesk;
+  letter-spacing: 0px;
+  color: #ee84b5;
+  opacity: 1;
 }
 
 .work {
-    height: 65px;
-    width: 130px;
-    margin-top: 5px;
-    margin-left: 100px;
-    text-align: left;
-    font: Medium 25px/25px HK Grotesk;
-    letter-spacing: 0px;
-    color: #3B0F24;
-    opacity: 1;
+  height: 65px;
+  width: 130px;
+  margin-top: 5px;
+  margin-left: 100px;
+  text-align: left;
+  font: Medium 25px/25px HK Grotesk;
+  letter-spacing: 0px;
+  color: #3b0f24;
+  opacity: 1;
 }
 
 #register {
-    visibility: block;
+  visibility: block;
 }
 
 #about-biznuke,
 #howItWorks,
 #blog {
-    display: none;
+  display: none;
 }
 
 .tested {
-    margin-top: 268px;
-    margin-left: 1056px;
-    width: 248px;
-    height: 56px;
-    text-align: left;
-    font: Light Italic 23px/28px HK Grotesk;
-    letter-spacing: 0px;
-    color: #3B0F24;
-    opacity: 1;
+  margin-top: 268px;
+  margin-left: 1056px;
+  width: 248px;
+  height: 56px;
+  text-align: left;
+  font: Light Italic 23px/28px HK Grotesk;
+  letter-spacing: 0px;
+  color: #3b0f24;
+  opacity: 1;
 }
 
 .form-p p {
-    text-align: left;
-    font: Regular 18px/21px HK Grotesk;
-    letter-spacing: 0px;
-    color: #EE84B5;
-    opacity: 1;
+  text-align: left;
+  font: Regular 18px/21px HK Grotesk;
+  letter-spacing: 0px;
+  color: #ee84b5;
+  opacity: 1;
 }
 
 .form-p h1 {
-    text-align: left;
-    font: Bold 28px/33px HK Grotesk;
-    letter-spacing: 0px;
-    color: #3B0F24;
-    opacity: 1;
+  text-align: left;
+  font: Bold 28px/33px HK Grotesk;
+  letter-spacing: 0px;
+  color: #3b0f24;
+  opacity: 1;
 }
 
 .from-p h2 {
-    text-align: left;
-    font: Medium 18px/21px HK Grotesk;
-    letter-spacing: 0px;
-    color: #3B0F24;
-    opacity: 1;
+  text-align: left;
+  font: Medium 18px/21px HK Grotesk;
+  letter-spacing: 0px;
+  color: #3b0f24;
+  opacity: 1;
 }
 
 .btn.btn-primary {
-    /*button*/
-    background: #AF0D64 0% 0% no-repeat padding-box;
-    border-radius: 4px;
-    opacity: 1;
-    /*font*/
-    text-align: left;
-    font: Bold 18px/21px HK Grotesk;
-    letter-spacing: 0px;
-    color: #FFFFFF;
-    opacity: 1;
+  /*button*/
+  background: #af0d64 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  opacity: 1;
+  /*font*/
+  text-align: left;
+  font: Bold 18px/21px HK Grotesk;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
 }
 
 .btn.btn-register :active {
-    /*button*/
-    background: #AF0D64 0% 0% no-repeat padding-box;
-    border-radius: 4px;
-    opacity: 1;
-    /*font*/
-    text-align: left;
-    font: Bold 18px/21px HK Grotesk;
-    letter-spacing: 0px;
-    color: #FFFFFF;
-    opacity: 1;
+  /*button*/
+  background: #af0d64 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  opacity: 1;
+  /*font*/
+  text-align: left;
+  font: Bold 18px/21px HK Grotesk;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
 }
 
 .btn.btn-form {
-    /*button*/
-    background: #FDF1F7 0% 0% no-repeat padding-box;
-    border-radius: 4px;
-    opacity: 1;
-    /*text*/
-    text-align: left;
-    font: Medium 18px/21px HK Grotesk;
-    letter-spacing: 0px;
-    color: #D3288D;
+  /*button*/
+  background: #fdf1f7 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  opacity: 1;
+  /*text*/
+  text-align: left;
+  font: Medium 18px/21px HK Grotesk;
+  letter-spacing: 0px;
+  color: #d3288d;
 }
 
 .btn.btn-form :active {
-    /*button*/
-    background: #EE3D97 0% 0% no-repeat padding-box;
-    border-radius: 4px;
-    opacity: 1;
-    /*text*/
-    text-align: left;
-    font: Medium 18px/21px HK Grotesk;
-    letter-spacing: 0px;
-    color: #D3288D;
+  /*button*/
+  background: #ee3d97 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  opacity: 1;
+  /*text*/
+  text-align: left;
+  font: Medium 18px/21px HK Grotesk;
+  letter-spacing: 0px;
+  color: #d3288d;
 }
