@@ -302,3 +302,37 @@ a.navbar-brand {
     color: #3B0F24;
     opacity: 1;
 }
+.form-p p{
+    text-align: left;
+    font: Regular 18px/21px HK Grotesk;
+    letter-spacing: 0px;
+    color: #EE84B5;
+    opacity: 1;
+}
+.form-p h1{
+    text-align: left;
+    font: Bold 28px/33px HK Grotesk;
+    letter-spacing: 0px;
+    color: #3B0F24;
+    opacity: 1;
+}
+.from-p h2{ 
+    text-align: left;
+    font: Medium 18px/21px HK Grotesk;
+    letter-spacing: 0px;
+    color: #3B0F24;
+    opacity: 1;
+}
+.btn.btn-primary{
+    /*button*/
+    background: #AF0D64 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    opacity: 1;
+
+    /*font*/
+    text-align: left;
+    font: Bold 18px/21px HK Grotesk;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
