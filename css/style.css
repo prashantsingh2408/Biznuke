@@ -335,7 +335,7 @@ a.navbar-brand {
     opacity: 1;
 }
 
-.btn.btn-primary{
+.btn.btn-primary {
     /*button*/
     background: #AF0D64 0% 0% no-repeat padding-box;
     border-radius: 4px;
@@ -349,7 +349,6 @@ a.navbar-brand {
 }
 
 .btn.btn-register :active {
-    
     /*button*/
     background: #AF0D64 0% 0% no-repeat padding-box;
     border-radius: 4px;
@@ -361,6 +360,7 @@ a.navbar-brand {
     color: #FFFFFF;
     opacity: 1;
 }
+
 .btn.btn-form {
     /*button*/
     background: #FDF1F7 0% 0% no-repeat padding-box;
@@ -372,6 +372,7 @@ a.navbar-brand {
     letter-spacing: 0px;
     color: #D3288D;
 }
+
 .btn.btn-form :active {
     /*button*/
     background: #EE3D97 0% 0% no-repeat padding-box;
