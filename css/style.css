@@ -231,6 +231,12 @@ a.navbar-brand {
   color: #6c63ff;
   opacity: 1;
 }
+.carousel-caption{
+    text-align: left;
+    margin-left:200px;
+    top:100px;
+
+}
 
 .carousel-indicators li {
   width: 10px;
@@ -240,6 +246,7 @@ a.navbar-brand {
 }
 
 .carousel-caption h5 {
+
   font: Light Italic 23px/28px HK Grotesk;
   letter-spacing: 0px;
   color: #3b0f24;
@@ -247,10 +254,13 @@ a.navbar-brand {
 }
 
 .carousel-caption p {
+
   font: Medium 24px/29px HK Grotesk;
   letter-spacing: 0px;
   color: #3b0f24;
   opacity: 1;
+  padding: 0;
+  margin: 0;
 }
 
 .carousel-caption li {
@@ -379,7 +389,7 @@ a.navbar-brand {
 
 .from-p h2 {
   text-align: left;
-  font: Medium 18px/21px HK Grotesk;
+  font: 5px/5px HK Grotesk;
   letter-spacing: 0px;
   color: #3b0f24;
   opacity: 1;
@@ -391,11 +401,11 @@ a.navbar-brand {
   border-radius: 4px;
   opacity: 1;
   /*font*/
-  text-align: left;
+  text-align: center;
   font: Bold 18px/21px HK Grotesk;
   letter-spacing: 0px;
   color: #ffffff;
-  opacity: 1;
+ 
 }
 
 .btn.btn-form {
@@ -408,11 +418,10 @@ a.navbar-brand {
   border-radius: 4px;
   opacity: 1;
   /*text*/
-  text-align: left;
+  text-align: center;
   font: Medium 18px/21px HK Grotesk;
   letter-spacing: 0px;
   color: #D3288D;
-  opacity: 1;
 }
 
 .btn.btn-form :hover {
@@ -425,9 +434,8 @@ a.navbar-brand {
   border-radius: 4px;
   opacity: 1;
   /*text*/
-  text-align: left;
+  text-align: center;
   font: Medium 18px/21px HK Grotesk;
   letter-spacing: 0px;
   color: #FFFFFF;
-  opacity: 1;
 }
