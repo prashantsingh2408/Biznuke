@@ -19,17 +19,31 @@
 </style>
 
 <body>
-    <!--Navbar(logo and home,login...-->
+    <!--logo and home,login...-->
     <!--sticky-top : fix navbar on top while on scrolling down-->
 
+    <div class="container-fluid row top">
+        <div class="col-3">
+            <img src="assets\logo@2x.png" class="img-fluid pl-5">
+        </div>
+        <div class="col-9 ">
+            <div class="row">
+gg
+            </div>
+            <div class="row">
+                <hr>___________________________________
+            </div>
+        </div>
+    </div>
+<!--old
     <nav class="navbar sticky-top navbar-expand-sm navbar-dark bg-transparent">
 
-        <!--Logo-->
+        Logo
         <a class="navbar-brand" href="#">
             <img src="assets\logo@2x.png" class="img-fluid pl-5">
         </a>
 
-        <!--ml-auto mr-1 move the content on right side-->
+       ml-auto mr-1 move the content on right side
         <button class="navbar-toggler ml-auto mr-1" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -45,6 +59,7 @@
             </ul>
         </div>
     </nav>
+-->
 
     <!--Middle section-->
     <div class="container-fluid">
@@ -154,23 +169,29 @@
     </div>
     <!-- Down section-->
     <!--navigation bar-->
-    <div class="container-fluid">
-    <ul class="nav nav-down ">
-        
-        <li class="nav-item col-1  text-left  ">
-            <a class="nav-link nav-down " href="#" onclick="displayRegister()">Register  </a>
+    <div class="container-fluid justify-content-center  ">
+    <ul class="nav nav-down">
+        <div class="row container-fluid  text-center ">
+        <li class="nav-item col-12 col-md-1  ">
+            <a class="nav-link nav-down container-fluid m-0 p-0 b-0" href="#" onclick="displayRegister()">Register</a>
         </li>
         
         
-        <li class="nav-item col-1.5  text-left">
-            <a class="nav-link active nav-down  offset-4 container-fluid " href="#" onclick="displayaboutBiznuke()">About BizNuke</a>
+        <li class="nav-item col-12 col-md-2">
+            <a class="nav-link  active nav-down  container-fluid m-0 p-0 b-0" href="#" onclick="displayaboutBiznuke()">About BizNuke</a>
         </li>
-        <li class="nav-item col-1.5  text-left ">
-            <a class="nav-link nav-down  offset-5 container-fluid" href="#" onclick="displayhowItWorks()">How it works</a>
+       
+
+        
+        <li class="nav-item col-12 col-md-2 ">
+            <a class="nav-link nav-down  container-fluid m-0 p-0 b-0" href="#" onclick="displayhowItWorks()">How it works</a>
         </li>
-        <li class="nav-item col-1 text-left ">
-            <a class="nav-link nav-down  offset-9 container-fluid" href="#" onclick="displayblog()">Blog</a>
+        
+        <li class="nav-item col-12 col-md-1 ">
+            <a class="nav-link nav-down container-fluid m-0 p-0 b-0" href="#" onclick="displayblog()">Blog</a>
         </li>
+    </div>
+    
     </ul>
     </div>
 
@@ -388,7 +409,7 @@
                     © All right reserved 2020, BizNuke Pvt. Ltd.
                 </p>
             </div>
-            <div class="col-md-2 p-0 m-0 b-0 text-center offset-2">
+            <div class="col-md-3  ml-2 text-center offset-2">
                 <a class="p-0 m-0 b-0" href="">
                 <img src="assets\Group 335@2x.png">
                 </a>
@@ -409,8 +430,8 @@
                 <img src="assets\Group 341@2x.png">
                 </a>
             </div>
-            <div class="col-md-3 p-0 m-0 b-0 text-right mr-2 pr-2 text-center">
-                <a href="  ">
+            <div class="col-md-3  p-0 m-0 b-0 text-privacy">
+                <a class="text-right" href="  ">
                            Privacy Policy
                         </a>
             </div>

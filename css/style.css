@@ -9,6 +9,11 @@
   background: url(../assets/Path\ 136\ \(3\).svg) no-repeat;
   background-size: cover;
   background-position: 0 -150px;
+  position: relative;
+
+}
+.top{
+  z-index: -1;
 }
 
 .transparent-bg {
@@ -167,7 +172,6 @@ a.navbar-brand {
 
 .nav-down {
   /*text*/
-  text-align: left;
   font: Medium 24px/29px HK Grotesk;
   letter-spacing: 0px;
   color: #3b0f24;
@@ -176,7 +180,6 @@ a.navbar-brand {
 
 .nav-down :hover {
   /*text*/
-  text-align: left;
   font: Bold 24px/29px HK Grotesk;
   letter-spacing: 0px;
   color: #ee3d97;
@@ -465,4 +468,7 @@ footer img{
 .back-img{
   height: 70%;
   width: 5%;
+}
+.text-privacy{
+  text-align: right;
 }
