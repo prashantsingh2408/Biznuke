@@ -1,4 +1,4 @@
-        @media only screen and (max-width: 768px) {
+        @media only screen and (max-width: 53.333vw) {
         .hero-testimonials {
             width: 100%;
             height: 100vh;
@@ -7,84 +7,84 @@
             background-position: center;
         }
         .lorem {
-            margin-left: 20px;
-            width: 313px;
+            margin-left: 1.389vw;
+            width: 21.736vw;
             text-align: left;
-            font: Bold 25px/25px HK Grotesk;
-            letter-spacing: 0px;
+            font: Bold 1.736vw/1.736vw HK Grotesk;
+            letter-spacing: 0vw;
             color: #3B0F24;
             opacity: 1;
         }
         .quis {
-            margin-left: 22px;
-            width: 322px;
+            margin-left: 1.528vw;
+            width: 22.361vw;
             text-align: left;
-            font: Regular 25px/25px HK Grotesk;
-            letter-spacing: 0px;
+            font: Regular 1.736vw/1.736vw HK Grotesk;
+            letter-spacing: 0vw;
             color: #3B0F24;
             opacity: 0.7;
         }
         .black-text {
-            top: 0px;
-            left: 0px;
-            width: 235px;
-            height: 53px;
+            top: 0vw;
+            left: 0vw;
+            width: 16.319vw;
+            height: 3.681vw;
             text-align: left;
-            font: Bold 20px/20px HK Grotesk;
-            letter-spacing: 0px;
+            font: Bold 1.389vw/1.389vw HK Grotesk;
+            letter-spacing: 0vw;
             color: #3B0F24;
         }
         .pink-text {
-            top: 53px;
-            left: 0px;
-            width: 488px;
-            height: 53px;
+            top: 3.681vw;
+            left: 0vw;
+            width: 33.889vw;
+            height: 3.681vw;
             text-align: left;
-            font: Bold 20px/20px HK Grotesk;
-            letter-spacing: 0px;
+            font: Bold 1.389vw/1.389vw HK Grotesk;
+            letter-spacing: 0vw;
             color: #EE3D97;
         }
         .coming-text {
-            top: 458px;
-            left: 187px;
-            width: 137px;
-            height: 29px;
+            top: 31.806vw;
+            left: 12.986vw;
+            width: 9.514vw;
+            height: 2.014vw;
             text-align: left;
-            font: Medium 20px/20px HK Grotesk;
-            letter-spacing: 0px;
+            font: Medium 1.389vw/1.389vw HK Grotesk;
+            letter-spacing: 0vw;
             color: #EE84B5;
             opacity: 1;
         }
         p {
-            padding: 50px;
+            padding: 3.472vw;
         }
         a {
-            margin: 30px 10px;
-            width: 150px;
-            padding: 10px;
-            border-radius: 20px;
+            margin: 2.083vw 0.694vw;
+            width: 10.417vw;
+            padding: 0.694vw;
+            border-radius: 1.389vw;
         }
         .btn-first {
             /*                                                                                                                                                                                                                   
-top: 542px;
-left: 187px;
-width: 184px;
-height: 54px;
+top: 37.639vw;
+left: 12.986vw;
+width: 12.778vw;
+height: 3.75vw;
 */
             background: #FDF1F7 0% 0% no-repeat padding-box;
-            border-radius: 4px;
+            border-radius: 0.278vw;
             opacity: 1;
         }
         .btn-second {
             /*
-top: 554px;
-left: 432px;
-width: 100px;
-height: 24px;
+top: 38.472vw;
+left: 30vw;
+width: 6.944vw;
+height: 1.667vw;
 */
             text-align: left;
-            font: Medium 20px/24px HK Grotesk;
-            letter-spacing: 0px;
+            font: Medium 1.389vw/1.667vw HK Grotesk;
+            letter-spacing: 0vw;
             color: #6C63FF;
             opacity: 1;
         }
@@ -92,36 +92,36 @@ height: 24px;
             height: 20vh;
         }
         .navbar-style {
-            box-shadow: 0 5px 10px #efefef;
+            box-shadow: 0 0.347vw 0.694vw #efefef;
         }
         .logo {
-            height: 70px;
-            padding: 1px 5px;
+            height: 4.861vw;
+            padding: 0.069vw 0.347vw;
         }
         .people {
-            max-width: 230px;
-            max-height: 900px;
-            margin-left: 121px;
-            margin-top: 228px;
+            max-width: 15.972vw;
+            max-height: 62.5vw;
+            margin-left: 8.403vw;
+            margin-top: 15.833vw;
         }
         .women {
-            max-width: 300px;
-            max-height: 260px;
-            margin-left: 32px;
-            margin-top: 50px;
+            max-width: 20.833vw;
+            max-height: 18.056vw;
+            margin-left: 2.222vw;
+            margin-top: 3.472vw;
         }
         .hey {
-            max-width: 267px;
-            max-height: 400px;
-            margin-left: 19px;
-            margin-top: 100px;
-            margin-bottom: 100px;
+            max-width: 18.542vw;
+            max-height: 27.778vw;
+            margin-left: 1.319vw;
+            margin-top: 6.944vw;
+            margin-bottom: 6.944vw;
           }
           .carousel-caption{
             text-align: left;
-            margin-left:-41px;
-            margin-top:181px;
-            width: 180px;
+            margin-left:-2.847vw;
+            margin-top:12.569vw;
+            width: 12.5vw;
           }
 
             .text-privacy{

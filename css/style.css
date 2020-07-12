@@ -8,104 +8,104 @@
   width: 100%;
   background: url(../assets/Path\ 136\ \(3\).svg) no-repeat;
   background-size: cover;
-  background-position: 0 -150px;
+  background-position: 0 -10.417vw;
 }
 .hero-testimonials-2 {
   width: 100%;
   background: url(assets\Path354.svg) no-repeat;
   background-size: cover;
-  background-position: 0 -150px;
+  background-position: 0 -10.417vw;
 }
 /*
 .facebook {
-    margin-left: 2px;
-    top: 5px;
-    left: 621px;
-    width: 175px;
-    height: 29px;
+    margin-left: 0.139vw;
+    top: 0.347vw;
+    left: 43.125vw;
+    width: 12.153vw;
+    height: 2.014vw;
     align-items: left;
     text-align: left;
-    font: Medium 24px/29px HK Grotesk;
-    letter-spacing: 0px;
+    font: Medium 1.667vw/2.014vw HK Grotesk;
+    letter-spacing: 0vw;
     color: #6c63ff;
     opacity: 1;
 }*/
 .facebook img{
-  width: 29px;
-  height: 30px;
+  width: 2.014vw;
+  height: 2.083vw;
   padding: 0;
-  margin: 2px;
+  margin: 0.139vw;
   border: 0;
 }
 .top-hr{
     position: absolute;
-    left: -255px;
-    top: 32px;
+    left: -17.708vw;
+    top: 2.222vw;
     height: 0;
     width: 128%;
 }
 
 .lorem {
-  margin-top: 65px;
+  margin-top: 4.514vw;
 
-  width: 385px;
+  width: 26.736vw;
   text-align: left;
-  font: Bold 30px/30px HK Grotesk;
-  letter-spacing: 0px;
+  font: Bold 2.083vw/2.083vw HK Grotesk;
+  letter-spacing: 0vw;
   color: #3b0f24;
   opacity: 1;
 }
 
 .quis {
-  margin-top: -20px;
+  margin-top: -1.389vw;
 
-  width: 390px;
+  width: 27.083vw;
   text-align: left;
-  font: Regular 25px/25px HK Grotesk;
-  letter-spacing: 0px;
+  font: Regular 1.736vw/1.736vw HK Grotesk;
+  letter-spacing: 0vw;
   color: #3b0f24;
   opacity: 0.7;
   padding: 0;
 }
 
 .black-text {
-  top: 0px;
-  left: 0px;
-  width: 235px;
-  height: 53px;
+  top: 0vw;
+  left: 0vw;
+  width: 16.319vw;
+  height: 3.681vw;
   text-align: left;
-  font: Bold 28px/28px HK Grotesk;
-  letter-spacing: 0px;
+  font: Bold 1.944vw/1.944vw HK Grotesk;
+  letter-spacing: 0vw;
   color: #3b0f24;
 }
 
 .pink-text {
-  /*top: 53px;
-    left: 0px;*/
-  width: 488px;
-  height: 53px;
+  /*top: 3.681vw;
+    left: 0vw;*/
+  width: 33.889vw;
+  height: 3.681vw;
   text-align: left;
-  font: Bold 28px/28px HK Grotesk;
-  letter-spacing: 0px;
+  font: Bold 1.944vw/1.944vw HK Grotesk;
+  letter-spacing: 0vw;
   color: #ee3d97;
 }
 
 .coming-text {
-  top: 400px;
-  width: 137px;
-  height: 29px;
+  top: 27.778vw;
+  width: 9.514vw;
+  height: 2.014vw;
   text-align: left;
-  font: bold 15px/15px HK Grotesk;
-  letter-spacing: 0px;
+  font: bold 1.042vw/1.042vw HK Grotesk;
+  letter-spacing: 0vw;
   color: #ee84b5;
   opacity: 1;
 }
 
 a.navbar-brand {
   margin: 0;
-  width: 180px;
+  width: 12.5vw;
   padding: 0;
-  border-radius: 20px;
+  border-radius: 1.389vw;
 }
 
 .button-link {
@@ -121,13 +121,13 @@ a.navbar-brand {
 
 .blog {
   position: absolute;
-  top: 49vw;
-  left: 50vw;
-  width: 3vw;
-  height: 2vw;
+  top: 705.6px;
+  left: 720px;
+  width: 43.2px;
+  height: 28.8px;
   text-align: left;
-  font: Medium 24px/29px HK Grotesk;
-  letter-spacing: 0vw;
+  font: Medium 1.667vw/2.014vw HK Grotesk;
+  letter-spacing: 0px;
   color: #3b0f24;
   opacity: 1;
 }
@@ -136,8 +136,8 @@ a.navbar-brand {
 
 .nav-down {
   /*text*/
-  font: Medium 24px/29px HK Grotesk;
-  letter-spacing: 0px;
+  font: Medium 1.667vw/2.014vw HK Grotesk;
+  letter-spacing: 0vw;
   color: #3b0f24;
   opacity: 1;
 }
@@ -147,85 +147,85 @@ a.navbar-brand {
   position: sticky;
   color:darkblue;
   border-style:solid;
-  border-width: 0px 0px 1px 0px;
-  padding:2px;
+  border-width: 0vw 0vw 0.069vw 0vw;
+  padding:0.139vw;
 }
 .people {
-  max-width: 244px;
+  max-width: 16.944vw;
   padding: 0;
   margin: 0;
-  max-height: 331px;
-  margin-left: 500px;
-  margin-top: -9px;
+  max-height: 22.986vw;
+  margin-left: 34.722vw;
+  margin-top: -0.625vw;
 }
 
 .women {
-  max-width: 400px;
-  max-height: 400px;
-  margin-left: 150px;
-  margin-top: 50px;
+  max-width: 27.778vw;
+  max-height: 27.778vw;
+  margin-left: 10.417vw;
+  margin-top: 3.472vw;
 }
 
 .hey {
-  max-width: 400px;
-  max-height: 400px;
-  margin-left: 48px;
-  margin-top: 177px;
+  max-width: 27.778vw;
+  max-height: 27.778vw;
+  margin-left: 3.333vw;
+  margin-top: 12.292vw;
 }
 
 .footer p {
   /*
-    top: 1614px;
-    left: 152px;
-    width: 468px;
-    height: 29px;
+    top: 112.083vw;
+    left: 10.556vw;
+    width: 32.5vw;
+    height: 2.014vw;
     */
   text-align: left;
-  font: Medium 24px/29px HK Grotesk;
-  letter-spacing: 0px;
+  font: Medium 1.667vw/2.014vw HK Grotesk;
+  letter-spacing: 0vw;
   color: #3b0f24;
   opacity: 1;
 }
 
 .footer a {
   /*
-    top: 1614px;
-    left: 1636px;
-    width: 143px;
-    height: 29px;
+    top: 112.083vw;
+    left: 113.611vw;
+    width: 9.931vw;
+    height: 2.014vw;
     */
   text-align: right;
-  font: Medium 24px/29px HK Grotesk;
-  letter-spacing: 0px;
+  font: Medium 1.667vw/2.014vw HK Grotesk;
+  letter-spacing: 0vw;
   color: #6c63ff;
   opacity: 1;
 }
 .carousel-caption{
     text-align: left;
-    margin-left:200px;
-    top:100px;
+    margin-left:13.889vw;
+    top:6.944vw;
 
 }
 
 .carousel-indicators li {
-  width: 10px;
-  height: 10px;
+  width: 0.694vw;
+  height: 0.694vw;
   border-radius: 100%;
   background-color: #d3288d;
 }
 
 .carousel-caption h5 {
 
-  font: Light Italic 23px/28px HK Grotesk;
-  letter-spacing: 0px;
+  font: Light Italic 1.597vw/1.944vw HK Grotesk;
+  letter-spacing: 0vw;
   color: #3b0f24;
   opacity: 1;
 }
 
 .carousel-caption p {
 
-  font: Medium 24px/29px HK Grotesk;
-  letter-spacing: 0px;
+  font: Medium 1.667vw/2.014vw HK Grotesk;
+  letter-spacing: 0vw;
   color: #3b0f24;
   opacity: 1;
   padding: 0;
@@ -237,83 +237,83 @@ a.navbar-brand {
 }
 
 .logo2 {
-  height: 80px;
-  width: 150px;
-  margin-top: 5px;
-  margin-left: 136px;
+  height: 5.556vw;
+  width: 10.417vw;
+  margin-top: 0.347vw;
+  margin-left: 9.444vw;
 }
 
 .laptop {
-  height: 271px;
-  width: 515px;
-  margin-top: 76px;
-  margin-left: 170px;
+  height: 18.819vw;
+  width: 35.764vw;
+  margin-top: 5.278vw;
+  margin-left: 11.806vw;
 }
 
 .lorem1 {
-  margin-left: 45px;
-  margin-top: 110px;
-  width: 380px;
+  margin-left: 3.125vw;
+  margin-top: 7.639vw;
+  width: 26.389vw;
   text-align: left;
-  font: Bold 20px/20px HK Grotesk;
-  letter-spacing: 0px;
+  font: Bold 1.389vw/1.389vw HK Grotesk;
+  letter-spacing: 0vw;
   color: #3b0f24;
   opacity: 1;
 }
 
 .dt {
-  margin-top: 10px;
-  margin-left: 32px;
+  margin-top: 0.694vw;
+  margin-left: 2.222vw;
   text-align: left;
-  font: Medium 24px/29px HK Grotesk;
-  letter-spacing: 0px;
+  font: Medium 1.667vw/2.014vw HK Grotesk;
+  letter-spacing: 0vw;
   color: #ee84b5;
   opacity: 1;
 }
 
 .logo5 {
-  height: 65px;
-  width: 130px;
-  margin-top: 5px;
-  margin-left: 100px;
+  height: 4.514vw;
+  width: 9.028vw;
+  margin-top: 0.347vw;
+  margin-left: 6.944vw;
 }
 
 .laptop2 {
-  height: 295px;
-  width: 525px;
-  margin-top: 0px;
-  margin-left: 415px;
+  height: 20.486vw;
+  width: 36.458vw;
+  margin-top: 0vw;
+  margin-left: 28.819vw;
 }
 
 .lorem2 {
-  margin-left: 443px;
-  margin-top: 0px;
-  width: 470px;
+  margin-left: 30.764vw;
+  margin-top: 0vw;
+  width: 32.639vw;
   text-align: left;
-  font: Bold 20px/20px HK Grotesk;
-  letter-spacing: 0px;
+  font: Bold 1.389vw/1.389vw HK Grotesk;
+  letter-spacing: 0vw;
   color: #3b0f24;
   opacity: 1;
 }
 
 .dt2 {
-  margin-top: 53px;
-  margin-left: -324px;
+  margin-top: 3.681vw;
+  margin-left: -22.5vw;
   text-align: left;
-  font: Medium 24px/29px HK Grotesk;
-  letter-spacing: 0px;
+  font: Medium 1.667vw/2.014vw HK Grotesk;
+  letter-spacing: 0vw;
   color: #ee84b5;
   opacity: 1;
 }
 
 .work {
-  height: 65px;
-  width: 130px;
-  margin-top: 5px;
-  margin-left: 100px;
+  height: 4.514vw;
+  width: 9.028vw;
+  margin-top: 0.347vw;
+  margin-left: 6.944vw;
   text-align: left;
-  font: Medium 25px/25px HK Grotesk;
-  letter-spacing: 0px;
+  font: Medium 1.736vw/1.736vw HK Grotesk;
+  letter-spacing: 0vw;
   color: #3b0f24;
   opacity: 1;
 }
@@ -329,37 +329,37 @@ a.navbar-brand {
 }
 
 .tested {
-  margin-top: 268px;
-  margin-left: 1056px;
-  width: 248px;
-  height: 56px;
+  margin-top: 18.611vw;
+  margin-left: 73.333vw;
+  width: 17.222vw;
+  height: 3.889vw;
   text-align: left;
-  font: Light Italic 23px/28px HK Grotesk;
-  letter-spacing: 0px;
+  font: Light Italic 1.597vw/1.944vw HK Grotesk;
+  letter-spacing: 0vw;
   color: #3b0f24;
   opacity: 1;
 }
 
 .form-p p {
   text-align: left;
-  font: Regular 18px/21px HK Grotesk;
-  letter-spacing: 0px;
+  font: Regular 1.25vw/1.458vw HK Grotesk;
+  letter-spacing: 0vw;
   color: #ee84b5;
   opacity: 1;
 }
 
 .form-p h1 {
   text-align: left;
-  font: Bold 28px/33px HK Grotesk;
-  letter-spacing: 0px;
+  font: Bold 1.944vw/2.292vw HK Grotesk;
+  letter-spacing: 0vw;
   color: #3b0f24;
   opacity: 1;
 }
 
 .from-p h2 {
   text-align: left;
-  font: 5px/5px HK Grotesk;
-  letter-spacing: 0px;
+  font: 0.347vw/0.347vw HK Grotesk;
+  letter-spacing: 0vw;
   color: #3b0f24;
   opacity: 1;
 }
@@ -367,50 +367,50 @@ a.navbar-brand {
 .btn.btn-register {
   /*button*/
   background: #af0d64 0% 0% no-repeat padding-box;
-  border-radius: 4px;
+  border-radius: 0.278vw;
   opacity: 1;
   /*font*/
   text-align: center;
-  font: Bold 18px/21px HK Grotesk;
-  letter-spacing: 0px;
+  font: Bold 1.25vw/1.458vw HK Grotesk;
+  letter-spacing: 0vw;
   color: #ffffff;
  
 }
 
 .btn.btn-form {
   /*button*/
-  top: 1242px;
-  left: 1134px;
-  width: 109px;
-  height: 48px;
+  top: 86.25vw;
+  left: 78.75vw;
+  width: 7.569vw;
+  height: 3.333vw;
   background: #FDF1F7 0% 0% no-repeat padding-box;
-  border-radius: 4px;
+  border-radius: 0.278vw;
   opacity: 1;
   /*text*/
   text-align: center;
-  font: Medium 18px/21px HK Grotesk;
-  letter-spacing: 0px;
+  font: Medium 1.25vw/1.458vw HK Grotesk;
+  letter-spacing: 0vw;
   color: #D3288D;
 }
 
 .btn.btn-form :hover {
   /*button*/
-  top: 1242px;
-  left: 1134px;
-  width: 109px;
-  height: 48px;
+  top: 86.25vw;
+  left: 78.75vw;
+  width: 7.569vw;
+  height: 3.333vw;
   background: #EE3D97 0% 0% no-repeat padding-box;
-  border-radius: 4px;
+  border-radius: 0.278vw;
   opacity: 1;
   /*text*/
   text-align: center;
-  font: Medium 18px/21px HK Grotesk;
-  letter-spacing: 0px;
+  font: Medium 1.25vw/1.458vw HK Grotesk;
+  letter-spacing: 0vw;
   color: #FFFFFF;
 }
 footer img{
-    height:30px ;
-    width:30px ;
+    height:2.083vw ;
+    width:2.083vw ;
 }
 
 /*
@@ -419,15 +419,15 @@ footer img{
 
 .secondJune{
   text-align:left;
-  font:Medium 24px/29px HK Grotesk;
-  letter-spacing: 0px;
+  font:Medium 1.667vw/2.014vw HK Grotesk;
+  letter-spacing: 0vw;
   color:#EE84B5;
   opacity:1;
 }
 
 /*vertical line*/
 .vl {
-  border-left: 1px solid black;
+  border-left: 0.069vw solid black;
   height: 50%;
   
 }
@@ -441,13 +441,13 @@ footer img{
 
 .people-girl{
   
-  max-width: 244px;
+  max-width: 16.944vw;
   padding: 0;
-  padding-top: 30px;
+  padding-top: 2.083vw;
   margin: 0;
-  max-height: 331px;
-  margin-left: 500px;
-  margin-top: 32px;
+  max-height: 22.986vw;
+  margin-left: 34.722vw;
+  margin-top: 2.222vw;
   }
   /*Icon bar*/
   
@@ -461,11 +461,11 @@ footer img{
   float: left;
   width: 20%;
   text-align: right;
-  margin-left: 550px;
-  margin-top: -10px;
+  margin-left: 38.194vw;
+  margin-top: -0.694vw;
   transition: all 0.3s ease;
   color: black;
-  font-size: 36px;
+  font-size: 2.5vw;
 }
 
 .icon-bar-login a:hover {
@@ -485,11 +485,11 @@ footer img{
   float: left;
   width: 20%;
   text-align: center;
-  margin-left: 120px;
-  margin-top: -10px;
+  margin-left: 8.333vw;
+  margin-top: -0.694vw;
   transition: all 0.3s ease;
   color: black;
-  font-size: 36px;
+  font-size: 2.5vw;
 }
 
 .icon-bar-home a:hover {
