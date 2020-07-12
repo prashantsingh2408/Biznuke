@@ -1,4 +1,4 @@
-* {
+* {p
   padding: 0;
   margin: 0;
   border: 0;
@@ -9,35 +9,40 @@
   background: url(../assets/Path\ 136\ \(3\).svg) no-repeat;
   background-size: cover;
   background-position: 0 -150px;
-  position: relative;
-
 }
-.top{
-  z-index: -1;
+.hero-testimonials-2 {
+  width: 100%;
+  background: url(assets\Path354.svg) no-repeat;
+  background-size: cover;
+  background-position: 0 -150px;
 }
-
-.transparent-bg {
-  border-width: 0px;
-  -webkit-box-shadow: 0px 0px;
-  box-shadow: 0px 0px;
-  background-color: rgba(0, 0, 0, 0);
-  background-image: -webkit-gradient(
-    linear,
-    50% 0%,
-    50% 100%,
-    color-stop(0%, rgba(0, 0, 0, 0)),
-    color-stop(100%, rgba(0, 0, 0, 0))
-  );
-  background-image: -webkit-linear-gradient(
-    270deg,
-    rgba(0, 0, 0, 0) 0%,
-    rgba(0, 0, 0, 0) 100%
-  );
-  background-image: linear-gradient(
-    180deg,
-    rgba(0, 0, 0, 0) 0%,
-    rgba(0, 0, 0, 0) 100%
-  );
+/*
+.facebook {
+    margin-left: 2px;
+    top: 5px;
+    left: 621px;
+    width: 175px;
+    height: 29px;
+    align-items: left;
+    text-align: left;
+    font: Medium 24px/29px HK Grotesk;
+    letter-spacing: 0px;
+    color: #6c63ff;
+    opacity: 1;
+}*/
+.facebook img{
+  width: 29px;
+  height: 30px;
+  padding: 0;
+  margin: 2px;
+  border: 0;
+}
+.top-hr{
+    position: absolute;
+    left: -255px;
+    top: 32px;
+    height: 0;
+    width: 128%;
 }
 
 .lorem {
@@ -86,7 +91,7 @@
 }
 
 .coming-text {
-  top: 458px;
+  top: 400px;
   width: 137px;
   height: 29px;
   text-align: left;
@@ -103,49 +108,10 @@ a.navbar-brand {
   border-radius: 20px;
 }
 
-.btn-first :hover,
-.btn-second :hover {
-  /*
-    top: 542px;
-    left: 187px;
-    width: 184px;
-    height: 54px;
-    border-radius: 4px; 
-    */
-    background: #FDF1F7 0% 0% no-repeat padding-box;
-    border-radius: 4px;
-    opacity: 1;
-
-    /*text*/
-    text-align: left;
-    font: Bold 18px/18px HK Grotesk;
-    letter-spacing: 0px;
-    color: #D3288D;
-    opacity: 1;
+.button-link {
+  text-decoration: #6C63FF;
 }
-.btn-first, .btn-second{
-  border-radius: 4px;
-  opacity: 1;
 
-  /*text*/
-  text-align: left;
-  font: Bold 18px/18px HK Grotesk;
-  letter-spacing: 0px;
-  color: #d3288d;
-  opacity: 1;
-}
-.btn-first,
-.btn-second {
-  border-radius: 4px;
-  opacity: 1;
-
-  /*text*/
-  text-align: left;
-  font: Bold 20px/24px HK Grotesk;
-  letter-spacing: 0px;
-  color: #6c63ff;
-  opacity: 1;
-}
 
 .navbar-brand {
   margin: 0;
@@ -166,9 +132,7 @@ a.navbar-brand {
   opacity: 1;
 }
 
-.navbar {
 
-}
 
 .nav-down {
   /*text*/
@@ -180,17 +144,19 @@ a.navbar-brand {
 
 .nav-down :hover {
   /*text*/
-  font: Bold 24px/29px HK Grotesk;
-  letter-spacing: 0px;
-  color: #ee3d97;
-  opacity: 1;
-  text-decoration: underline;
+  position: sticky;
+  color:darkblue;
+  border-style:solid;
+  border-width: 0px 0px 1px 0px;
+  padding:2px;
 }
 .people {
-  max-width: 289px;
-  max-height: 338px;
-  margin-left: 485px;
-  margin-top: 32px;
+  max-width: 244px;
+  padding: 0;
+  margin: 0;
+  max-height: 331px;
+  margin-left: 500px;
+  margin-top: -9px;
 }
 
 .women {
@@ -471,4 +437,65 @@ footer img{
 }
 .text-privacy{
   text-align: right;
+}
+
+.people-girl{
+  
+  max-width: 244px;
+  padding: 0;
+  padding-top: 30px;
+  margin: 0;
+  max-height: 331px;
+  margin-left: 500px;
+  margin-top: 32px;
+  }
+  /*Icon bar*/
+  
+.icon-bar-login {
+  width: 100%;
+  background-color:transparent;
+  overflow: auto;
+}
+
+.icon-bar-login a {
+  float: left;
+  width: 20%;
+  text-align: right;
+  margin-left: 550px;
+  margin-top: -10px;
+  transition: all 0.3s ease;
+  color: black;
+  font-size: 36px;
+}
+
+.icon-bar-login a:hover {
+  background-color:transparent;
+}
+
+.icon-bar-login :active {
+  background-color:transparent
+}
+.icon-bar-home{
+  width: 100%;
+  background-color:transparent;
+  overflow: auto;
+
+}
+.icon-bar-home a {
+  float: left;
+  width: 20%;
+  text-align: center;
+  margin-left: 120px;
+  margin-top: -10px;
+  transition: all 0.3s ease;
+  color: black;
+  font-size: 36px;
+}
+
+.icon-bar-home a:hover {
+  background-color:transparent;
+}
+
+.icon-bar-home :active {
+  background-color:transparent
 }

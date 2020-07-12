@@ -3,6 +3,7 @@
 
 <head>
     <!-- Required meta tags -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -19,53 +20,45 @@
 </style>
 
 <body>
-    <!--logo and home,login...-->
-    <!--sticky-top : fix navbar on top while on scrolling down-->
 
-    <div class="container-fluid row top">
-        <div class="col-3">
-            <img src="assets\logo@2x.png" class="img-fluid pl-5">
-        </div>
-        <div class="col-9 ">
-            <div class="row">
-gg
-            </div>
-            <div class="row">
-                <hr>___________________________________
-            </div>
-        </div>
-    </div>
-<!--old
-    <nav class="navbar sticky-top navbar-expand-sm navbar-dark bg-transparent">
-
-        Logo
-        <a class="navbar-brand" href="#">
-            <img src="assets\logo@2x.png" class="img-fluid pl-5">
-        </a>
-
-       ml-auto mr-1 move the content on right side
-        <button class="navbar-toggler ml-auto mr-1" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse flex-grow-0 ml-auto mr-1" id="navbarSupportedContent">
-            <ul class="navbar-nav ">
-                <li class="nav-item ml-auto mr-1">
-                    <a class="nav-link active" href="">Home</a>
-                </li>
-                <li class="nav-item ml-auto mr-1">
-                    <a class="nav-link" href="signin.html">Login</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
--->
-
-    <!--Middle section-->
+    <!--Top section-->
     <div class="container-fluid">
         <div class="row">
             <div class="col-12 col-sm-4">
-                <!-- Middle Right section -->
+
+                <!-- top Right section -->
+                <!--Logo-->
+                <a class="navbar-brand" href="#">
+                    <img src="assets\logo@2x.png" class="img-fluid pl-5">
+                </a>
+
+                
+                  <!--Facebook-->
+                  <div class="d-sm-none ">
+                 <div class=" row justify-content-end img-fluid img-responsive facebook pt-2 navbar-expand ">             
+          
+                <a class="p-0 m-0 b-0" href="">
+                <img src="assets\Group 335@2x.png">
+                </a>
+
+                <a class="p-0 m-0 b-0" href="">
+                <img src="assets\Group 336@2x.png">
+                </a>
+
+                <a class="p-0 m-0 b-0" href="">
+                <img src="assets\Group 337@2x.png">
+                </a>
+
+                <a class="p-0 m-0 b-0" href="">
+                <img src="assets\Group 340@2x.png">
+                </a>
+
+                <a class="p-0 m-0 b-0" href="">
+                <img src="assets\Group 341@2x.png">
+                </a>
+            </div>
+        </div>
+            <!--End Facebook-->
                 <p class="pb-0 pl-5 pt-5">
                     <span class="black-text">
                         India's only
@@ -80,31 +73,52 @@ gg
                         </span>
                     </br>
                     </br>
-                    <a href="">
+                    <a href=""  >
                     <span class="coming-text">
                             Coming soon
                         </span>
                     </a>
-
                 </p>
-
                 <!--Buttons-->
-                <div class="button pt-0 pl-5 pt-4">
-                    <a class="btn btn-first" href="#">
-                        <sapn class="btn-first-text">
-                            Watch Video
-                        </sapn>
-                    </a>
-                    <a class="btn btn-second" href="#">
-                        <span class="btn-second-text">
-                            Know More
-                        </span>
-                    </a>
-                </div>
-
+                <button type="button" class="btn pl-4 ml-4 bl-4 " style="color:#D3288D; background-color: #FDF1F7;">Watch video</button>
+                <button type="button" class="btn  " style="color:#6C63FF">Know more</button>
             </div>
-            <!--Middle Left People section-->
+            <!--top Left People section-->
             <div class="col-12 col-sm-8 position-relative hero-testimonials">
+                  <!--Facebook-->
+                  <div class="d-none d-xl-block d-md-block">
+            <div class="row justify-content-end img-fluid img-responsive facebook pt-2 navbar-expand ">    
+                 <!--Login button-->
+                 <div class="icon-bar-login">
+                    <a class="active" href="signin.html"><i class="fa fa-sign-in"></i></a> 
+                 </div>
+          
+                <a class="p-0 m-0 b-0" href="">
+                    
+                <img src="assets\Group 335@2x.png">
+                </a>
+
+                <a class="p-0 m-0 b-0" href="">
+                <img src="assets\Group 336@2x.png">
+                </a>
+
+                <a class="p-0 m-0 b-0" href="">
+                <img src="assets\Group 337@2x.png">
+                </a>
+
+                <a class="p-0 m-0 b-0" href="">
+                <img src="assets\Group 340@2x.png">
+                </a>
+
+                <a class="p-0 m-0 b-0" href="">
+                <img src="assets\Group 341@2x.png">
+                </a>
+            </div>
+        </div>
+            <hr class="top-hr">
+            
+            <!--End Facebook-->
+              
                 <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -166,28 +180,29 @@ gg
             </div>
         </div>
         <hr class="m-0 p-0">
+    </br>
     </div>
     <!-- Down section-->
     <!--navigation bar-->
     <div class="container-fluid justify-content-center  ">
-    <ul class="nav nav-down">
-        <div class="row container-fluid  text-center ">
-        <li class="nav-item col-12 col-md-1  ">
+    <ul class="nav">
+        <div class="row container-fluid  text-center">
+        <li class="nav-item col-12 col-md-1">
             <a class="nav-link nav-down container-fluid m-0 p-0 b-0" href="#" onclick="displayRegister()">Register</a>
         </li>
         
         
-        <li class="nav-item col-12 col-md-2">
+        <li class="nav-item col-12 col-md-2  ">
             <a class="nav-link  active nav-down  container-fluid m-0 p-0 b-0" href="#" onclick="displayaboutBiznuke()">About BizNuke</a>
         </li>
        
 
         
-        <li class="nav-item col-12 col-md-2 ">
+        <li class="nav-item col-12 col-md-2  ">
             <a class="nav-link nav-down  container-fluid m-0 p-0 b-0" href="#" onclick="displayhowItWorks()">How it works</a>
         </li>
         
-        <li class="nav-item col-12 col-md-1 ">
+        <li class="nav-item col-12 col-md-1  nav-down ">
             <a class="nav-link nav-down container-fluid m-0 p-0 b-0" href="#" onclick="displayblog()">Blog</a>
         </li>
     </div>
@@ -197,7 +212,7 @@ gg
 
     <!--Content of navigation slider-->
     <!--contnet of Register-->
-    <div class="container-fluid" id="register">
+    <div class="container-fluid" id="register" >
         <div class="row">
             <!--Left Section-->
             <div class="col-12 col-sm-6 position-relative ">
@@ -206,9 +221,11 @@ gg
             </div>
 
             <!--Right Section-->
+        
             <div class="col-12 col-sm-4 ">
                 <form class="form-p">
                     <!--Heading-->
+                </br></br></br>
                     <h1 class="h5">Register to get informed</h1>
 
                     <!--info-->
@@ -266,10 +283,13 @@ gg
 
                     <p class="mt-4 mb-4 p-0">Not able to register you can reach us at
                         <a href="">hi@biznuke.</a>
+
+                    </br></br>
                     </p>
                 </form>
 
             </div>
+
 
             <!--right space-->
             <div class="col-12 col-sm-2">                
@@ -286,13 +306,17 @@ gg
             </div>
 
             <div class="col-12 col-sm-6">
+            </br>
                 <h1 class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit,</h1>
                 </br>
                 <p class="quis">
                     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
                     officia
                 </p>
+            
                 <a href="">Know more</a>
+            </br>
+        </br></br></br></br></br>
             </div>
         </div>
     </div>
@@ -312,6 +336,7 @@ gg
             <!--Image-->
             <div calss="row">
                 <div class="col-4 offset-4">
+                </br></br></br>
                     <img class="img-fluid" src="assets\Image 5@2x.png">
                 </div>
             </div>
@@ -327,11 +352,10 @@ gg
                     </div>
                 </div>
                 <a href="how it work.html">Know more</a>
-
             </div>
-            
         </div>
     </div>
+</br></br></br>
     <!--Content of blog-->
     <div class="container-fluid" id="blog">
         <div class="row">
@@ -360,9 +384,9 @@ gg
             </div>
         </div>
         <a class= "ml-4 pl-4"href="Blog 1.html">Know more</a>
-    
-    
+    </br></br></br>
     </div>
+
     <!--Down Section END--> 
 
         </div>
@@ -403,35 +427,15 @@ gg
 
     <hr>
     <footer>
-        <div class="row container-fluid">
-            <div class="col-md-5 p-0 m-0 b-0 p-0 m-0 b-0 ">
-                <p class ="m-0 p-0 b-0 text-center">
+        <div class="row container-fluid justify-content-between">
+            <div class="col ml-4 ">
+                <p >
                     © All right reserved 2020, BizNuke Pvt. Ltd.
                 </p>
             </div>
-            <div class="col-md-3  ml-2 text-center offset-2">
-                <a class="p-0 m-0 b-0" href="">
-                <img src="assets\Group 335@2x.png">
-                </a>
 
-                <a class="p-0 m-0 b-0" href="">
-                <img src="assets\Group 336@2x.png">
-                </a>
-
-                <a class="p-0 m-0 b-0" href="">
-                <img src="assets\Group 337@2x.png">
-                </a>
-
-                <a class="p-0 m-0 b-0" href="">
-                <img src="assets\Group 340@2x.png">
-                </a>
-
-                <a class="p-0 m-0 b-0" href="">
-                <img src="assets\Group 341@2x.png">
-                </a>
-            </div>
-            <div class="col-md-3  p-0 m-0 b-0 text-privacy">
-                <a class="text-right" href="  ">
+                <a  href="  ">
+                    <div class="col mr-4 "></div>
                            Privacy Policy
                         </a>
             </div>
@@ -440,6 +444,7 @@ gg
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <scrip src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
