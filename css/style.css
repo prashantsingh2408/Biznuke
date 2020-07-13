@@ -44,10 +44,8 @@
     height: 0;
     width: 128%;
 }
-
 .lorem {
   margin-top: 4.514vw;
-
   width: 26.736vw;
   text-align: left;
   font: Bold 2.083vw/2.083vw HK Grotesk;
@@ -144,11 +142,9 @@ a.navbar-brand {
 
 .nav-down :hover {
   /*text*/
-  position: sticky;
-  color:darkblue;
-  border-style:solid;
-  border-width: 0vw 0vw 0.069vw 0vw;
-  padding:0.139vw;
+  text-decoration-thickness: 5vh;
+  
+  text-decoration: underline;
 }
 .people {
   max-width: 16.944vw;
@@ -452,16 +448,16 @@ footer img{
   /*Icon bar*/
   
 .icon-bar-login {
-  width: 100%;
+  FONT-VARIANT: JIS04;
   background-color:transparent;
-  overflow: auto;
+  /* overflow: auto; */
 }
 
 .icon-bar-login a {
   float: left;
   width: 20%;
   text-align: right;
-  margin-left: 38.194vw;
+  margin-left: 1vw;
   margin-top: -0.694vw;
   transition: all 0.3s ease;
   color: black;
@@ -498,4 +494,11 @@ footer img{
 
 .icon-bar-home :active {
   background-color:transparent
+}
+.top-hr2{
+  position: absolute;
+  left: -17.708vw;
+  top: 4.000vw;
+  height: 0;
+  width: 118%;
 }
