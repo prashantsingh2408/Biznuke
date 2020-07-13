@@ -39,10 +39,10 @@
 }
 .top-hr{
     position: absolute;
-    left: -17.708vw;
+    left: -17.500vw;
     top: 2.222vw;
     height: 0;
-    width: 128%;
+    width: 123%;
 }
 .lorem {
   margin-top: 4.514vw;
@@ -281,16 +281,6 @@ a.navbar-brand {
   margin-left: 28.819vw;
 }
 
-.lorem2 {
-  margin-left: 30.764vw;
-  margin-top: 0vw;
-  width: 32.639vw;
-  text-align: left;
-  font: Bold 1.389vw/1.389vw HK Grotesk;
-  letter-spacing: 0vw;
-  color: #3b0f24;
-  opacity: 1;
-}
 
 .dt2 {
   margin-top: 3.681vw;
@@ -495,10 +485,4 @@ footer img{
 .icon-bar-home :active {
   background-color:transparent
 }
-.top-hr2{
-  position: absolute;
-  left: -17.708vw;
-  top: 4.000vw;
-  height: 0;
-  width: 118%;
-}
+
