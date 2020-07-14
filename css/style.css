@@ -1,4 +1,4 @@
-* {p
+* {
   padding: 0;
   margin: 0;
   border: 0;
@@ -8,102 +8,107 @@
   width: 100%;
   background: url(../assets/Path\ 136\ \(3\).svg) no-repeat;
   background-size: cover;
-  background-position: 0 -10.417vw;
+  background-position: 0 -140px;
 }
-.hero-testimonials-2 {
-  width: 100%;
-  background: url(assets\Path354.svg) no-repeat;
-  background-size: cover;
-  background-position: 0 -10.417vw;
-}
+
 /*
 .facebook {
-    margin-left: 0.139vw;
-    top: 0.347vw;
-    left: 43.125vw;
-    width: 12.153vw;
-    height: 2.014vw;
+    margin-left: 2.002px;
+    top: 4.997px;
+    left: 621px;
+    width: 175.003px;
+    height: 29.002px;
     align-items: left;
     text-align: left;
-    font: Medium 1.667vw/2.014vw HK Grotesk;
-    letter-spacing: 0vw;
+    font: Medium 24.005px/29.002px HK Grotesk;
+    letter-spacing: 0px;
     color: #6c63ff;
     opacity: 1;
 }*/
-.facebook img{
-  width: 2.014vw;
-  height: 2.083vw;
+.facebook img {
+  width: 29.002px;
+  height: 29.995px;
   padding: 0;
-  margin: 0.139vw;
+  margin: 2.002px;
   border: 0;
 }
-.top-hr{
-    position: absolute;
-    left: -17.500vw;
-    top: 2.222vw;
-    height: 0;
-    width: 123%;
+
+.top-hr {
+  position: absolute;
+  left: -208px;
+  top: 42.997px;
+  height: 0;
+  width: 123%;
 }
+
+.top-hr2 {
+  position: absolute;
+  left: -310px;
+  top: 358.997px;
+  height: 0;
+  width: 123%;
+}
+
 .lorem {
-  margin-top: 4.514vw;
-  width: 26.736vw;
+  margin-top: 65.002px;
+  width: 384.998px;
   text-align: left;
-  font: Bold 2.083vw/2.083vw HK Grotesk;
-  letter-spacing: 0vw;
+  font: Bold 29.995px/29.995px HK Grotesk;
+  letter-spacing: 0px;
   color: #3b0f24;
   opacity: 1;
 }
 
 .quis {
-  margin-top: -1.389vw;
+  margin-top: -20.002px;
 
-  width: 27.083vw;
+  width: 389.995px;
   text-align: left;
-  font: Regular 1.736vw/1.736vw HK Grotesk;
-  letter-spacing: 0vw;
+  font: Regular 24.998px/24.998px HK Grotesk;
+  letter-spacing: 0px;
   color: #3b0f24;
   opacity: 0.7;
   padding: 0;
 }
 
 .black-text {
-  top: 0vw;
-  left: 0vw;
-  width: 16.319vw;
-  height: 3.681vw;
+  top: 0px;
+  left: 0px;
+  width: 234.994px;
+  height: 53.006px;
   text-align: left;
-  font: Bold 1.944vw/1.944vw HK Grotesk;
-  letter-spacing: 0vw;
+  font: Bold 27.994px/27.994px HK Grotesk;
+  letter-spacing: 0px;
   color: #3b0f24;
 }
 
 .pink-text {
-  /*top: 3.681vw;
-    left: 0vw;*/
-  width: 33.889vw;
-  height: 3.681vw;
+  /*top: 53.006px;
+    left: 0px;*/
+  width: 488.002px;
+  height: 53.006px;
   text-align: left;
-  font: Bold 1.944vw/1.944vw HK Grotesk;
-  letter-spacing: 0vw;
+  font: Bold 27.994px/27.994px HK Grotesk;
+  letter-spacing: 0px;
   color: #ee3d97;
 }
 
 .coming-text {
-  top: 27.778vw;
-  width: 9.514vw;
-  height: 2.014vw;
+  top: 400.003px;
+  width: 137.002px;
+  height: 29.002px;
   text-align: left;
-  font: bold 1.042vw/1.042vw HK Grotesk;
-  letter-spacing: 0vw;
+  font: bold 15.005px/15.005px HK Grotesk;
+  letter-spacing: 0px;
   color: #ee84b5;
   opacity: 1;
 }
 
 a.navbar-brand {
   margin: 0;
-  width: 12.5vw;
+  width: 180px;
   padding: 0;
-  border-radius: 1.389vw;
+  border-radius: 20.002px;
 }
 
 .button-link {
@@ -119,13 +124,13 @@ a.navbar-brand {
 
 .blog {
   position: absolute;
-  top: 705.6px;
-  left: 720px;
-  width: 43.2px;
-  height: 28.8px;
+  top: 49vw;
+  left: 50vw;
+  width: 3vw;
+  height: 2vw;
   text-align: left;
-  font: Medium 1.667vw/2.014vw HK Grotesk;
-  letter-spacing: 0px;
+  font: Medium 24.005px/29.002px HK Grotesk;
+  letter-spacing: 0vw;
   color: #3b0f24;
   opacity: 1;
 }
@@ -134,8 +139,8 @@ a.navbar-brand {
 
 .nav-down {
   /*text*/
-  font: Medium 1.667vw/2.014vw HK Grotesk;
-  letter-spacing: 0vw;
+  font: Medium 24.005px/29.002px HK Grotesk;
+  letter-spacing: 0px;
   color: #3b0f24;
   opacity: 1;
 }
@@ -143,85 +148,87 @@ a.navbar-brand {
 .nav-down :hover {
   /*text*/
   text-decoration-thickness: 5vh;
-  
+
   text-decoration: underline;
 }
+
 .people {
-  max-width: 16.944vw;
+  max-width: 243.994px;
   padding: 0;
   margin: 0;
-  max-height: 22.986vw;
-  margin-left: 34.722vw;
-  margin-top: -0.625vw;
+  max-height: 275.998px;
+  margin-left: 465.997px;
+  margin-top: 45px;
 }
 
 .women {
-  max-width: 27.778vw;
-  max-height: 27.778vw;
-  margin-left: 10.417vw;
-  margin-top: 3.472vw;
+  max-width: 400.003px;
+  max-height: 400.003px;
+  margin-left: 150.005px;
+  margin-top: 49.997px;
 }
 
 .hey {
-  max-width: 27.778vw;
-  max-height: 27.778vw;
-  margin-left: 3.333vw;
-  margin-top: 12.292vw;
+  max-width: 400.003px;
+  max-height: 400.003px;
+  margin-left: 47.995px;
+  margin-top: 177.005px;
 }
 
 .footer p {
   /*
-    top: 112.083vw;
-    left: 10.556vw;
-    width: 32.5vw;
-    height: 2.014vw;
+    top: 1613.995px;
+    left: 152.006px;
+    width: 468px;
+    height: 29.002px;
     */
   text-align: left;
-  font: Medium 1.667vw/2.014vw HK Grotesk;
-  letter-spacing: 0vw;
+  font: Medium 24.005px/29.002px HK Grotesk;
+  letter-spacing: 0px;
   color: #3b0f24;
   opacity: 1;
 }
 
 .footer a {
   /*
-    top: 112.083vw;
-    left: 113.611vw;
-    width: 9.931vw;
-    height: 2.014vw;
+    top: 1613.995px;
+    left: 1635.998px;
+    width: 143.006px;
+    height: 29.002px;
     */
   text-align: right;
-  font: Medium 1.667vw/2.014vw HK Grotesk;
-  letter-spacing: 0vw;
+  font: Medium 24.005px/29.002px HK Grotesk;
+  letter-spacing: 0px;
   color: #6c63ff;
   opacity: 1;
 }
-.carousel-caption{
-    text-align: left;
-    margin-left:13.889vw;
-    top:6.944vw;
+
+.carousel-caption {
+  text-align: left;
+  margin-left: 200.002px;
+  top: 99.994px;
 
 }
 
 .carousel-indicators li {
-  width: 0.694vw;
-  height: 0.694vw;
+  width: 9.994px;
+  height: 9.994px;
   border-radius: 100%;
   background-color: #d3288d;
 }
 
 .carousel-caption h5 {
 
-  font: Light Italic 1.597vw/1.944vw HK Grotesk;
-  letter-spacing: 0vw;
+  font: Light Italic 22.997px/27.994px HK Grotesk;
+  letter-spacing: 0px;
   color: #3b0f24;
   opacity: 1;
 }
 
 .carousel-caption p {
 
-  font: Medium 1.667vw/2.014vw HK Grotesk;
-  letter-spacing: 0vw;
+  font: Medium 24.005px/29.002px HK Grotesk;
+  letter-spacing: 0px;
   color: #3b0f24;
   opacity: 1;
   padding: 0;
@@ -233,73 +240,73 @@ a.navbar-brand {
 }
 
 .logo2 {
-  height: 5.556vw;
-  width: 10.417vw;
-  margin-top: 0.347vw;
-  margin-left: 9.444vw;
+  height: 80.006px;
+  width: 150.005px;
+  margin-top: 4.997px;
+  margin-left: 135.994px;
 }
 
 .laptop {
-  height: 18.819vw;
-  width: 35.764vw;
-  margin-top: 5.278vw;
-  margin-left: 11.806vw;
+  height: 270.994px;
+  width: 515.002px;
+  margin-top: 76.003px;
+  margin-left: 170.006px;
 }
 
 .lorem1 {
-  margin-left: 3.125vw;
-  margin-top: 7.639vw;
-  width: 26.389vw;
+  margin-left: 45px;
+  margin-top: 110.002px;
+  width: 380.002px;
   text-align: left;
-  font: Bold 1.389vw/1.389vw HK Grotesk;
-  letter-spacing: 0vw;
+  font: Bold 20.002px/20.002px HK Grotesk;
+  letter-spacing: 0px;
   color: #3b0f24;
   opacity: 1;
 }
 
 .dt {
-  margin-top: 0.694vw;
-  margin-left: 2.222vw;
+  margin-top: 9.994px;
+  margin-left: 31.997px;
   text-align: left;
-  font: Medium 1.667vw/2.014vw HK Grotesk;
-  letter-spacing: 0vw;
+  font: Medium 24.005px/29.002px HK Grotesk;
+  letter-spacing: 0px;
   color: #ee84b5;
   opacity: 1;
 }
 
 .logo5 {
-  height: 4.514vw;
-  width: 9.028vw;
-  margin-top: 0.347vw;
-  margin-left: 6.944vw;
+  height: 65.002px;
+  width: 130.003px;
+  margin-top: 4.997px;
+  margin-left: 99.994px;
 }
 
 .laptop2 {
-  height: 20.486vw;
-  width: 36.458vw;
-  margin-top: 0vw;
-  margin-left: 28.819vw;
+  height: 294.998px;
+  width: 524.995px;
+  margin-top: 0px;
+  margin-left: 414.994px;
 }
 
 
 .dt2 {
-  margin-top: 3.681vw;
-  margin-left: -22.5vw;
+  margin-top: 53.006px;
+  margin-left: -324px;
   text-align: left;
-  font: Medium 1.667vw/2.014vw HK Grotesk;
-  letter-spacing: 0vw;
+  font: Medium 24.005px/29.002px HK Grotesk;
+  letter-spacing: 0px;
   color: #ee84b5;
   opacity: 1;
 }
 
 .work {
-  height: 4.514vw;
-  width: 9.028vw;
-  margin-top: 0.347vw;
-  margin-left: 6.944vw;
+  height: 65.002px;
+  width: 130.003px;
+  margin-top: 4.997px;
+  margin-left: 99.994px;
   text-align: left;
-  font: Medium 1.736vw/1.736vw HK Grotesk;
-  letter-spacing: 0vw;
+  font: Medium 24.998px/24.998px HK Grotesk;
+  letter-spacing: 0px;
   color: #3b0f24;
   opacity: 1;
 }
@@ -315,37 +322,37 @@ a.navbar-brand {
 }
 
 .tested {
-  margin-top: 18.611vw;
-  margin-left: 73.333vw;
-  width: 17.222vw;
-  height: 3.889vw;
+  margin-top: 267.998px;
+  margin-left: 1055.995px;
+  width: 247.997px;
+  height: 56.002px;
   text-align: left;
-  font: Light Italic 1.597vw/1.944vw HK Grotesk;
-  letter-spacing: 0vw;
+  font: Light Italic 22.997px/27.994px HK Grotesk;
+  letter-spacing: 0px;
   color: #3b0f24;
   opacity: 1;
 }
 
 .form-p p {
   text-align: left;
-  font: Regular 1.25vw/1.458vw HK Grotesk;
-  letter-spacing: 0vw;
+  font: Regular 18px/20.995px HK Grotesk;
+  letter-spacing: 0px;
   color: #ee84b5;
   opacity: 1;
 }
 
 .form-p h1 {
   text-align: left;
-  font: Bold 1.944vw/2.292vw HK Grotesk;
-  letter-spacing: 0vw;
+  font: Bold 27.994px/33.005px HK Grotesk;
+  letter-spacing: 0px;
   color: #3b0f24;
   opacity: 1;
 }
 
 .from-p h2 {
   text-align: left;
-  font: 0.347vw/0.347vw HK Grotesk;
-  letter-spacing: 0vw;
+  font: 4.997px/4.997px HK Grotesk;
+  letter-spacing: 0px;
   color: #3b0f24;
   opacity: 1;
 }
@@ -353,93 +360,96 @@ a.navbar-brand {
 .btn.btn-register {
   /*button*/
   background: #af0d64 0% 0% no-repeat padding-box;
-  border-radius: 0.278vw;
+  border-radius: 4.003px;
   opacity: 1;
   /*font*/
   text-align: center;
-  font: Bold 1.25vw/1.458vw HK Grotesk;
-  letter-spacing: 0vw;
+  font: Bold 18px/20.995px HK Grotesk;
+  letter-spacing: 0px;
   color: #ffffff;
- 
+
 }
 
 .btn.btn-form {
   /*button*/
-  top: 86.25vw;
-  left: 78.75vw;
-  width: 7.569vw;
-  height: 3.333vw;
+  top: 1242px;
+  left: 1134px;
+  width: 108.994px;
+  height: 47.995px;
   background: #FDF1F7 0% 0% no-repeat padding-box;
-  border-radius: 0.278vw;
+  border-radius: 4.003px;
   opacity: 1;
   /*text*/
   text-align: center;
-  font: Medium 1.25vw/1.458vw HK Grotesk;
-  letter-spacing: 0vw;
+  font: Medium 18px/20.995px HK Grotesk;
+  letter-spacing: 0px;
   color: #D3288D;
 }
 
 .btn.btn-form :hover {
   /*button*/
-  top: 86.25vw;
-  left: 78.75vw;
-  width: 7.569vw;
-  height: 3.333vw;
+  top: 1242px;
+  left: 1134px;
+  width: 108.994px;
+  height: 47.995px;
   background: #EE3D97 0% 0% no-repeat padding-box;
-  border-radius: 0.278vw;
+  border-radius: 4.003px;
   opacity: 1;
   /*text*/
   text-align: center;
-  font: Medium 1.25vw/1.458vw HK Grotesk;
-  letter-spacing: 0vw;
+  font: Medium 18px/20.995px HK Grotesk;
+  letter-spacing: 0px;
   color: #FFFFFF;
 }
-footer img{
-    height:2.083vw ;
-    width:2.083vw ;
+
+footer img {
+  height: 29.995px;
+  width: 29.995px;
 }
 
 /*
 **BlOG
 */
 
-.secondJune{
-  text-align:left;
-  font:Medium 1.667vw/2.014vw HK Grotesk;
-  letter-spacing: 0vw;
-  color:#EE84B5;
-  opacity:1;
+.secondJune {
+  text-align: left;
+  font: Medium 24.005px/29.002px HK Grotesk;
+  letter-spacing: 0px;
+  color: #EE84B5;
+  opacity: 1;
 }
 
 /*vertical line*/
 .vl {
-  border-left: 0.069vw solid black;
+  border-left: 0.994px solid black;
   height: 50%;
-  
+
 }
-.back-img{
+
+.back-img {
   height: 70%;
   width: 5%;
 }
-.text-privacy{
+
+.text-privacy {
   text-align: right;
 }
 
-.people-girl{
-  
-  max-width: 16.944vw;
+.people-girl {
+
+  max-width: 243.994px;
   padding: 0;
-  padding-top: 2.083vw;
   margin: 0;
-  max-height: 22.986vw;
-  margin-left: 34.722vw;
-  margin-top: 2.222vw;
-  }
-  /*Icon bar*/
-  
+  max-height: 275.998px;
+  margin-left: 465.997px;
+  margin-top: 45px;
+}
+
+/*Icon bar*/
+
 .icon-bar-login {
   FONT-VARIANT: JIS04;
-  background-color:transparent;
+  background-color: transparent;
   /* overflow: auto; */
 }
 
@@ -447,42 +457,43 @@ footer img{
   float: left;
   width: 20%;
   text-align: right;
-  margin-left: 1vw;
-  margin-top: -0.694vw;
+  margin-left: 14.4px;
+  margin-top: -9.994px;
   transition: all 0.3s ease;
   color: black;
-  font-size: 2.5vw;
+  font-size: 36px;
 }
 
 .icon-bar-login a:hover {
-  background-color:transparent;
+  background-color: transparent;
 }
 
 .icon-bar-login :active {
-  background-color:transparent
+  background-color: transparent
 }
-.icon-bar-home{
+
+.icon-bar-home {
   width: 100%;
-  background-color:transparent;
+  background-color: transparent;
   overflow: auto;
 
 }
+
 .icon-bar-home a {
   float: left;
   width: 20%;
   text-align: center;
-  margin-left: 8.333vw;
-  margin-top: -0.694vw;
+  margin-left: 119.995px;
+  margin-top: -9.994px;
   transition: all 0.3s ease;
   color: black;
-  font-size: 2.5vw;
+  font-size: 36px;
 }
 
 .icon-bar-home a:hover {
-  background-color:transparent;
+  background-color: transparent;
 }
 
 .icon-bar-home :active {
-  background-color:transparent
+  background-color: transparent
 }
-
