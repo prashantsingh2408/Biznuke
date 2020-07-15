@@ -1,3 +1,4 @@
+/* Main page*/
 * {
   padding: 0;
   margin: 0;
@@ -11,21 +12,13 @@
   background-position: 0 -140px;
 }
 
-/*
-.facebook {
-    margin-left: 2.002px;
-    top: 4.997px;
-    left: 621px;
-    width: 175.003px;
-    height: 29.002px;
-    align-items: left;
-    text-align: left;
-    font: Medium 24.005px/29.002px HK Grotesk;
-    letter-spacing: 0px;
-    color: #6c63ff;
-    opacity: 1;
-}*/
-.facebook img {
+.facebookbig {
+
+  left: 621px;
+  width: 856px;
+}
+
+.facebookbig img {
   width: 29.002px;
   height: 29.995px;
   padding: 0;
@@ -33,18 +26,27 @@
   border: 0;
 }
 
+.facebookbig a {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  height: 1px;
+  width: 30px;
+}
+
 .top-hr {
   position: absolute;
   left: -208px;
-  top: 42.997px;
-  height: 0;
-  width: 123%;
+  top: 42px;
+  margin-top: 7px;
+  margin-left: 10px;
+  width: 122%;
 }
 
 .top-hr2 {
   position: absolute;
-  left: -310px;
-  top: 358.997px;
+  left: -316px;
+  top: 322px;
   height: 0;
   width: 123%;
 }
@@ -156,9 +158,9 @@ a.navbar-brand {
   max-width: 243.994px;
   padding: 0;
   margin: 0;
-  max-height: 275.998px;
-  margin-left: 465.997px;
-  margin-top: 45px;
+  max-height: 275px;
+  margin-left: 455px;
+  margin-top: 54px;
 }
 
 .women {
@@ -272,6 +274,12 @@ a.navbar-brand {
   letter-spacing: 0px;
   color: #ee84b5;
   opacity: 1;
+}
+
+.logo-main {
+  height: 105px;
+  width: 225px;
+  margin-left: -12px;
 }
 
 .logo5 {
