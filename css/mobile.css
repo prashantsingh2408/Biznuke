@@ -1,6 +1,14 @@
        @media only screen and (max-width: 575.98px) {
+
+           p {
+               padding: 52px;
+               padding-top: 20px;
+               padding-left: 103px;
+           }
+
            .hero-testimonials {
                width: 100%;
+               height: 600px;
                background: url(../assets/Path\ 136\ \(3\).svg) no-repeat;
                background-size: cover;
                background-position: center;
@@ -49,7 +57,7 @@
                top: 42px;
                margin-top: -303px;
                margin-left: 361px;
-               width: 59%;
+               width: 58%;
            }
 
            .top-hr2 {
@@ -59,6 +67,123 @@
                height: 0;
                width: 99%;
            }
+
+           .down-hr {
+               position: relative;
+               left: 10px;
+               top: -26px;
+               height: 0;
+               width: 96%;
+           }
+
+           .allright {
+               text-align: center;
+               width: max-content;
+               padding: 0;
+               margin: 0;
+               position: relative;
+               top: -19px;
+           }
+
+
+           .people {
+               max-width: 243px;
+               padding: 0;
+               margin: 0;
+               max-height: 275px;
+               margin-left: 150px;
+               margin-top: 120px;
+           }
+
+           .people-girl {
+               max-width: 243px;
+               padding: 0;
+               margin: 0;
+               max-height: 275px;
+               margin-left: 150px;
+               margin-top: 120px;
+           }
+
+           .poli {
+               margin-top: 0;
+               text-align: center;
+               width: max-content;
+               position: relative;
+               top: -34px;
+               right: -97px;
+           }
+
+
+           .loremSmall {
+               top: 182px;
+           }
+
+           .fsmall {
+               margin-top: -46px;
+           }
+
+           .womansmall {
+               top: 120px;
+           }
+
+           .col.ml-4.small {
+               height: 0px;
+               width: 0px;
+           }
+
+           .carousel-caption {
+               text-align: left;
+               margin-left: 200.002px;
+               top: 99.994px;
+
+           }
+
+           .carousel-indicators li {
+               width: 9.994px;
+               height: 9.994px;
+               border-radius: 100%;
+               background-color: #d3288d;
+           }
+
+           .carousel-caption h5 {
+
+               font: Light Italic 22.997px/27.994px HK Grotesk;
+               letter-spacing: 0px;
+               color: #3b0f24;
+               opacity: 1;
+           }
+
+           .carousel-caption p {
+
+               font: Medium 24.005px/29.002px HK Grotesk;
+               letter-spacing: 0px;
+               color: #3b0f24;
+               opacity: 1;
+               margin-top: 56px;
+               margin-left: -248px;
+           }
+
+           .carousel-caption li {
+               color: #d3288d;
+               margin-left: -230px;
+           }
+
+           ol.carousel-indicators {
+               margin-left: -52px;
+           }
+
+           p.pl-4 {
+               margin-top: -57px;
+               margin-left: -232px;
+           }
+
+           .logo5 {
+               height: 65px;
+               width: 130px;
+               margin-top: 4px;
+               margin-left: -13px;
+           }
+
 
 
            .lorem {
@@ -165,13 +290,6 @@
                padding: 0.994px 4.997px;
            }
 
-           .people {
-               max-width: 229.997px;
-               max-height: 900px;
-               margin-left: 121.003px;
-               margin-top: 227.995px;
-           }
-
            .women {
                max-width: 299.995px;
                max-height: 260.006px;
@@ -187,17 +305,40 @@
                margin-bottom: 99.994px;
            }
 
-           .carousel-caption {
-               text-align: left;
-               margin-left: -40.997px;
-               margin-top: 180.994px;
-               width: 180px;
+           .laptop {
+               height: 275px;
+               width: 343px;
+               margin-top: 0px;
+               margin-left: -353px;
+           }
+
+           .laptop3 {
+               height: 275px;
+               width: 343px;
+               margin-top: 0px;
+               margin-left: -353px;
            }
 
            .text-privacy {
                text-align: center;
            }
+
+           .BLorem {
+               margin: 0;
+           }
+
+           .w-100-small {
+               width: 100% !important;
+           }
        }
+
+       @media only screen and (min-width: 800px) and (max-width: 1400px) {
+           .top-main {
+               height: 396px;
+           }
+
+       }
+
 
        /*
        // Small devices (landscape phones, less than 768px)
@@ -1052,7 +1193,7 @@
           .back-img {
               height: 70%;
               width: 5%;
-          }
+    
 
           .text-privacy {
               text-align: right;

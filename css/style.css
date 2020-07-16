@@ -5,11 +5,14 @@
   border: 0;
 }
 
+
+
 .hero-testimonials {
   width: 100%;
+  height: 560px;
   background: url(../assets/Path\ 136\ \(3\).svg) no-repeat;
   background-size: cover;
-  background-position: 0 -140px;
+  background-position: 0 -150px;
 }
 
 .facebookbig {
@@ -46,9 +49,17 @@
 .top-hr2 {
   position: absolute;
   left: -316px;
-  top: 322px;
+  top: 363px;
   height: 0;
   width: 123%;
+}
+
+.down-hr {
+  position: relative;
+  left: 0px;
+  top: 0px;
+  height: 0;
+  width: 100%;
 }
 
 .lorem {
@@ -158,9 +169,9 @@ a.navbar-brand {
   max-width: 243.994px;
   padding: 0;
   margin: 0;
-  max-height: 275px;
-  margin-left: 455px;
-  margin-top: 54px;
+  max-height: 275.998px;
+  margin-left: 465.997px;
+  margin-top: 56px;
 }
 
 .women {
@@ -249,10 +260,10 @@ a.navbar-brand {
 }
 
 .laptop {
-  height: 270.994px;
-  width: 515.002px;
-  margin-top: 76.003px;
-  margin-left: 170.006px;
+  height: 275px;
+  width: 640px;
+  margin-top: 0px;
+  margin-left: 80px;
 }
 
 .lorem1 {
@@ -290,10 +301,10 @@ a.navbar-brand {
 }
 
 .laptop2 {
-  height: 294.998px;
-  width: 524.995px;
+  height: 294px;
+  width: 524px;
   margin-top: 0px;
-  margin-left: 414.994px;
+  margin-left: 414px;
 }
 
 
@@ -450,7 +461,7 @@ footer img {
   margin: 0;
   max-height: 275.998px;
   margin-left: 465.997px;
-  margin-top: 45px;
+  margin-top: 56px;
 }
 
 /*Icon bar*/

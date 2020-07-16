@@ -6,6 +6,7 @@
         background-size: cover;
         background-position: center;
     }
+
     .lorem {
         margin-left: 20.002px;
         width: 312.998px;
@@ -15,6 +16,7 @@
         color: #3B0F24;
         opacity: 1;
     }
+
     .quis {
         margin-left: 22.003px;
         width: 321.998px;
@@ -24,6 +26,7 @@
         color: #3B0F24;
         opacity: 0.7;
     }
+
     .black-text {
         top: 0px;
         left: 0px;
@@ -34,6 +37,7 @@
         letter-spacing: 0px;
         color: #3B0F24;
     }
+
     .pink-text {
         top: 53.006px;
         left: 0px;
@@ -44,6 +48,7 @@
         letter-spacing: 0px;
         color: #EE3D97;
     }
+
     .coming-text {
         top: 458.006px;
         left: 186.998px;
@@ -55,15 +60,18 @@
         color: #EE84B5;
         opacity: 1;
     }
+
     p {
         padding: 49.997px;
     }
+
     a {
         margin: 29.995px 9.994px;
         width: 150.005px;
         padding: 9.994px;
         border-radius: 20.002px;
     }
+
     .btn-first {
         /*                                                                                                                                                                                                                   
 top: 542.002px;
@@ -75,6 +83,7 @@ height: 54px;
         border-radius: 4.003px;
         opacity: 1;
     }
+
     .btn-second {
         /*
 top: 553.997px;
@@ -88,44 +97,50 @@ height: 24.005px;
         color: #6C63FF;
         opacity: 1;
     }
+
     .header {
         height: 20vh;
     }
+
     .navbar-style {
         box-shadow: 0 4.997px 9.994px #efefef;
     }
+
     .logo {
         height: 69.998px;
         padding: 0.994px 4.997px;
     }
+
     .people {
         max-width: 229.997px;
         max-height: 900px;
         margin-left: 121.003px;
         margin-top: 227.995px;
     }
+
     .women {
         max-width: 299.995px;
         max-height: 260.006px;
         margin-left: 31.997px;
         margin-top: 49.997px;
     }
+
     .hey {
         max-width: 267.005px;
         max-height: 400.003px;
         margin-left: 18.994px;
         margin-top: 99.994px;
         margin-bottom: 99.994px;
-      }
-      .carousel-caption{
-        text-align: left;
-        margin-left:-40.997px;
-        margin-top:180.994px;
-        width: 180px;
-      }
+    }
 
-        .text-privacy{
-            text-align: center;
-        }     
-      }
-    
+    .carousel-caption {
+        text-align: left;
+        margin-left: -40.997px;
+        margin-top: 180.994px;
+        width: 180px;
+    }
+
+    .text-privacy {
+        text-align: center;
+    }
+}
