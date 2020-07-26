@@ -1,0 +1,379 @@
+@media (min-width: 300px) {
+
+  .h1,
+  h1 {
+    padding-left: 15%;
+    /*text-align: center;*/
+    /*text-indent: inherit;*/
+    /*text-decoration-line: inherit;*/
+    padding-top: 0%;
+    font-size: 110%;
+    margin-top: -9%;
+  }
+}
+
+@media (min-width: 300px) {
+  .quis {
+    padding-left: 6%;
+    font-size: 63%;
+    width: 76%;
+  }
+}
+
+.quis {
+  padding-left: 12%;
+}
+
+.Lorem {
+  padding-left: 12%;
+  padding-bottom: 0;
+  margin-top: 26%;
+}
+
+@media (min-width: 1200px) {
+
+  .h1,
+  h1 {
+    font-size: larger;
+  }
+}
+
+@media (min-width: 1200px) {
+  .quis {
+    font-size: medium;
+  }
+}
+
+@media (min-width: 300px) {
+  .Lorem {
+    margin-top: 10%;
+  }
+}
+
+@media (min-width: 300px) {
+  .Lorem2 {
+    padding-left: 0;
+    margin-left: 11%;
+    margin-top: 6%;
+  }
+}
+
+@media (min-width: 576px) {
+  .Lorem2 {
+    /*padding-left: 0%;*/
+    margin-left: 24%;
+    margin-right: 22%;
+  }
+}
+
+@media (min-width: 768px) {
+  .Lorem2 {
+    margin-left: 13%;
+    margin-right: 6%;
+    margin-top: 13%;
+  }
+}
+
+@media (min-width: 992px) {
+  .Lorem2 {
+    margin-left: 19%;
+    margin-right: 18%;
+    font-family: 'HK Grotesk Bold';
+    margin-top: 15%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .Lorem2 {
+    margin-left: 17%;
+    margin-right: 26%;
+    margin-top: 18%;
+  }
+}
+
+.Lorem {
+  font-family: 'HK Grotesk Bold';
+}
+
+/*
+.btn:not(:disabled):not(.disabled) {}
+
+.btn:not(:disabled):not(.disabled) {}
+
+.btn:not(:disabled):not(.disabled) {}
+*/
+@media (min-width: 1200px) {
+  .btn-read.btn {
+    margin-left: 17%;
+  }
+}
+
+@media (min-width: 992px) {
+  .btn-read.btn {
+    margin-left: 19%;
+  }
+}
+
+@media (min-width: 768px) {
+  .btn-read.btn {
+    margin-left: 0;
+  }
+}
+
+@media (min-width: 576px) {
+  .btn-read {
+    margin-left: 28%;
+  }
+}
+
+@media (min-width: 300px) {
+  .btn-read.btn {
+    margin-left: 11%;
+  }
+}
+
+@media (min-width: 576px) {
+  .btn.btn-read {
+    margin-left: 23%;
+  }
+}
+
+@media (min-width: 576px) {
+  .col {
+    padding-left: 24%;
+  }
+}
+
+@media (min-width: 768px) {
+  .col {
+    padding-left: 1%;
+  }
+}
+
+@media (min-width: 992px) {
+  p {
+    font-size: 93%;
+  }
+}
+
+@media (min-width: 1200px) {
+  p {
+    font-size: 110%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  p {
+    font-size: 86%;
+  }
+}
+
+@media (min-width: 576px) and (max-width:767px) {
+  p {
+    font-size: 134%;
+    height: 90%;
+    width: 90%;
+  }
+}
+
+@media (min-width: 300px) and (max-width:575px) {
+  p {
+    font-size: 126%;
+  }
+}
+
+
+
+@media (min-width: 768px) {
+  img {
+    padding: 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width:991px) {
+  .laptop-blog {
+    padding: 23%;
+    padding-top: 2%;
+  }
+}
+
+@media (min-width: 768px) and (max-width:991px) {
+  .lorem-blog {
+    padding: 0;
+    padding-right: 8%;
+    padding-left: 10%;
+    font-size: 122%;
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    margin-left: 0;
+    padding-bottom: 0;
+    padding-top: 2%;
+    margin-right: 0;
+    color: #3B0F24;
+    font-family: 'HK Grotesk Bold';
+    line-height: 112%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .laptop-blog {
+    padding: 25%;
+    padding-top: 2%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .laptop-blog-down {
+    padding: 0%;
+    padding-top: 2%;
+    margin-left: 20%;
+  }
+}
+
+@media (min-width: 300px) and (max-width:374px) {
+  .laptop-blog-down {
+    padding: 0%;
+    padding-top: 2%;
+    margin-left: 20%;
+  }
+}
+
+@media (min-width: 375px) and (max-width:411px) {
+  .laptop-blog-down {
+    padding: 0%;
+    padding-top: 2%;
+    margin-left: 20%;
+  }
+}
+
+@media (min-width: 412px) and (max-width:575px) {
+  .laptop-blog-down {
+    padding: 0%;
+    padding-top: 2%;
+    margin-left: 20%;
+  }
+}
+
+@media (min-width: 576px) and (max-width:767px) {
+  .laptop-blog-down {
+    padding: 0%;
+    padding-top: 2%;
+    margin-left: 20%;
+  }
+}
+
+@media (min-width: 768px) and (max-width:991px) {
+  .laptop-blog-down {
+    padding: 3%;
+    padding-top: 2%;
+    margin-left: 20%;
+  }
+}
+
+@media (min-width: 992px) and (max-width:1199px) {
+
+  .laptop-blog-down {
+    padding: 0%;
+    padding-top: 2%;
+    margin-left: 20%;
+  }
+}
+
+@media (min-width: 992px) and (max-width:1199px) {
+  .laptop-blog {
+    padding: 20%;
+    padding-top: 1%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .lorem-blog {
+    padding: 0;
+    padding-right: 8%;
+    padding-left: 10%;
+    font-size: 218%;
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    margin-left: 0;
+    padding-bottom: 0;
+    padding-top: 2%;
+    margin-right: 0;
+    color: #3B0F24;
+    font-family: 'HK Grotesk Bold';
+    line-height: 112%;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .lorem-blog {
+    padding: 0;
+    padding-right: 8%;
+    padding-left: 10%;
+    font-size: 122%;
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    margin-left: 0;
+    padding-bottom: 0;
+    padding-top: 2%;
+    margin-right: 0;
+    color: #3B0F24;
+    font-family: 'HK Grotesk Bold';
+    line-height: 112%;
+  }
+}
+
+@media (min-width: 576px) and (max-width:767px) {
+  .laptop-blog {
+    padding: 13%;
+    padding-top: 2%;
+    padding-bottom: 0;
+  }
+}
+
+@media (min-width: 992px) and (max-width:1199px) {
+  .lorem-blog {
+    padding: 0;
+    padding-right: 8%;
+    padding-left: 10%;
+    font-size: 173%;
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    margin-left: 0;
+    padding-bottom: 0;
+    padding-top: 2%;
+    margin-right: 0;
+    color: #3B0F24;
+    font-family: 'HK Grotesk Bold';
+    line-height: 112%;
+  }
+}
+
+@media (min-width: 300px) and (max-width:575px) {
+  .lorem-blog {
+    padding: 0;
+    padding-right: 8%;
+    padding-left: 10%;
+    font-size: 79%;
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    margin-left: 0;
+    padding-bottom: 1%;
+    padding-top: 2%;
+    margin-right: 0;
+    color: #3B0F24;
+    font-family: 'HK Grotesk Bold';
+    line-height: 112%;
+  }
+}
+
+@media (min-width: 300px) and (max-width:575px) {
+  .laptop-blog {
+    padding: 12%;
+    padding-top: 2%;
+  }
+}
