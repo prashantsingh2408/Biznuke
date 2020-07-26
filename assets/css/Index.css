@@ -1,0 +1,649 @@
+.profile-img {
+  text-align: center;
+}
+
+.carousel-caption li {
+  color: #d3288d;
+  font-size: 100%;
+}
+
+
+
+.carousel-caption h5 {
+
+  font: Light Italic 22.997px/27.994px HK Grotesk;
+  letter-spacing: 0px;
+  color: #3b0f24;
+  opacity: 1;
+}
+
+
+.carousel-indicators li {
+  width: 9px;
+  height: 9px;
+  border-radius: 100%;
+  background-color: #d3288d;
+}
+
+.carousel-caption h5 {
+
+  letter-spacing: 0px;
+  color: #3b0f24;
+  opacity: 1;
+  font-size: 18px;
+  font-family: 'HK Grotesk Medium';
+
+}
+
+.carousel-caption p {
+
+  letter-spacing: 0px;
+  color: #3b0f24;
+  opacity: 1;
+  padding: 0;
+  margin: 0;
+  font-size: 104%;
+  font-family: 'Light Italic HK Grotesk';
+  height: 3em;
+}
+
+#register {
+  visibility: block;
+}
+
+#about-biznuke,
+#howItWorks,
+#blog {
+  display: none;
+}
+
+.hover-link :hover {
+  color: #EE3D97;
+  font-size: 1em;
+  font-family: 'HK Grotesk Bold';
+  height: 40px;
+  padding-top: 0;
+}
+
+.hover-link {
+  color: black;
+  font-size: 1em;
+  font-family: 'HK Grotesk Bold';
+  height: 40px;
+  padding-top: 0;
+}
+
+a {
+  color: #6C63FF;
+}
+
+.border-fix {
+  border-color: white;
+}
+
+@media (min-width: 1200px) {
+  .svg-down {
+    width: 135%;
+    height: 579px;
+    background-image: url('../../assets/img/svgg.svg');
+    background-size: cover;
+    background-position: -146px -18px;
+    background-repeat: no-repeat;
+  }
+
+  .people {
+    width: 100%;
+    max-width: 36%;
+    margin: 0;
+    margin-left: 176px;
+    margin-bottom: 0px;
+    padding: 0px;
+    padding-bottom: 0;
+    height: 100%;
+    margin-top: 0;
+    padding-top: 0%;
+  }
+
+  .women {
+    width: 100%;
+    max-width: 33%;
+    margin: 0;
+    margin-left: 35%;
+    margin-bottom: 0px;
+    padding: 0px;
+    padding-bottom: 0;
+    height: 0%;
+    margin-top: 0;
+    padding-top: 0%;
+  }
+
+  .hey {
+    margin-left: 25%;
+    margin-top: 15%;
+    width: 300px;
+    position: absolute;
+  }
+
+  .mobile {
+    margin-left: 30%;
+    margin-top: 20%;
+    width: 40%;
+  }
+
+  .carousel-caption {
+    text-align: left;
+    margin-left: -9%;
+    top: 20%;
+  }
+
+  .upper-svg {
+    background: url(../../assets/img/svg.svg);
+    background-repeat: no-repeat;
+    background-size: 95% 230%;
+    background-position: 120% 62%;
+  }
+}
+
+@media (min-width: 992px) and (max-width:1199px) {
+  .upper-svg {
+    width: 100%;
+    height: 100%;
+    background: url(../../assets/img/svg.svg);
+    background-repeat: no-repeat;
+    background-size: 90% 150%;
+    background-position: 110% 72%;
+  }
+
+  .carousel-caption {
+    text-align: left;
+    margin-left: -11%;
+    top: 20%;
+
+  }
+
+  .svg-down {
+    width: 135%;
+    height: 579px;
+    background-image: url('../../assets/img/svgg.svg');
+    background-size: cover;
+    background-position: -253px -23px;
+    background-repeat: no-repeat;
+  }
+
+  .women {
+    width: 100%;
+    max-width: 35.7%;
+    margin: 0;
+    margin-left: 35%;
+    margin-bottom: 0px;
+    padding: 0px;
+    padding-bottom: 0;
+    height: 100%;
+    margin-top: 0;
+    padding-top: 0%;
+  }
+
+  .people {
+    width: 100%;
+    max-width: 39%;
+    margin: 0;
+    margin-left: 27%;
+    margin-bottom: 0px;
+    padding: 0px;
+    padding-bottom: 0;
+    height: 70%;
+    margin-top: 0;
+    padding-top: 0%;
+  }
+
+  .hey {
+    margin-left: 26%;
+    margin-top: 24%;
+    width: 250px;
+  }
+
+  .mobile {
+    margin-left: 10%;
+    margin-top: 20%;
+    width: 60%;
+  }
+
+  /*
+  .carousel-caption {
+    text-align: left;
+    margin-left: -9%;
+    top: 20%;
+  }*/
+}
+
+@media (min-width: 768px) and (max-width:991px) {
+  .upper-svg {
+    background: url(../../assets/img/svg.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 200%;
+    background-position: 50% 58%;
+  }
+
+  .carousel-caption {
+    text-align: left;
+    margin-left: -10%;
+    top: 21%;
+  }
+
+  .svg-down {
+    width: 135%;
+    height: 579px;
+    background-image: url('../../assets/img/svgg.svg');
+    background-size: cover;
+    background-position: -362px -18px;
+    background-repeat: no-repeat;
+  }
+
+  .people {
+    width: 132%;
+    max-width: 52%;
+    max-height: defult;
+    margin: 0;
+    margin-left: 80px;
+    margin-bottom: 0;
+    padding: 0px;
+    padding-bottom: 0;
+    height: 267px;
+    min-height: default;
+    margin-top: 31;
+    padding-top: -22%;
+    margin-right: 136px;
+    padding-left: 30px;
+    top: 18px;
+  }
+
+  .women {
+    width: 100%;
+    max-width: 42%;
+    margin: 0;
+    margin-left: 40%;
+    margin-bottom: 0px;
+    padding: 0px;
+    padding-bottom: 0;
+    height: 100%;
+    margin-top: 0;
+    padding-top: 0%;
+  }
+
+  .hey {
+    margin-left: 16%;
+    margin-top: 34%;
+    width: 50%;
+  }
+
+  .mobile {
+    margin-left: 10%;
+    margin-top: 45%;
+    width: 60%;
+  }
+
+  /*
+  .carousel-caption {
+    text-align: left;
+    margin-left: -12%;
+    top: 20%;
+}*/
+}
+
+@media (min-width: 576px) and (max-width:767px) {
+  .upper-svg {
+    background: url(../../assets/img/svg.svg);
+    background-repeat: no-repeat;
+    background-size: 120% 80%;
+    background-position: 90% 165%;
+  }
+
+  .carousel-caption {
+    text-align: left;
+    margin-left: ;
+    top: 20%;
+  }
+
+  .col-md-6.svg-down {
+    width: 135%;
+    height: 579px;
+    background-image: url('../../assets/img/svgg.svg');
+    background-size: cover;
+    background-position: -179px -18px;
+    background-repeat: no-repeat;
+  }
+
+  .people {
+    width: 100%;
+    max-width: 37%;
+    margin: 0;
+    margin-left: 37%;
+    margin-bottom: 0px;
+    padding: 0px;
+    padding-bottom: 0;
+    height: 100%;
+    margin-top: 0;
+    padding-top: 0%;
+  }
+
+  .women {
+    width: 100%;
+    max-width: 34%;
+    margin: 0;
+    margin-left: 38%;
+    margin-bottom: 0px;
+    padding: 0px;
+    padding-bottom: 0;
+    height: 100%;
+    margin-top: 0;
+    padding-top: 0%;
+  }
+
+  .hey {
+    margin-left: 28%;
+    margin-top: 15%;
+    width: 300px;
+  }
+}
+
+@media (min-width: 412px) and (max-width:575px) {
+  .upper-svg {
+    background: url(../../assets/img/svg.svg);
+    background-repeat: no-repeat;
+    background-size: 120% 160%;
+    background-position: 90% 0%;
+  }
+
+  .carousel-caption {
+    text-align: left;
+    margin-left: -11%;
+    top: 20%;
+
+  }
+
+  .hey {
+    margin-left: 10%;
+    margin-top: 30%;
+    width: 300px;
+  }
+
+
+  /*
+  .carousel-caption {
+    text-align: left;
+    margin-left: -6%;
+    top: 20%;
+  }*/
+
+  .svg-down {
+    width: 135%;
+    height: 579%;
+    background-image: url('../../assets/img/svgg.svg');
+    background-size: cover;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+  }
+
+  .people {
+    width: 132%;
+    max-width: 55%;
+    max-height: defult;
+    margin: 0;
+    margin-left: 120px;
+    margin-bottom: 0px;
+    padding: 0px;
+    padding-bottom: 0;
+    height: 255px;
+    min-height: default;
+    margin-top: 31;
+    padding-top: -22%;
+    margin-right: 136px;
+    padding-left: 27px;
+    top: 18px;
+  }
+
+  .women {
+    width: 100%;
+    max-width: 35%;
+    margin: 0;
+    margin-left: 45%;
+    margin-bottom: 0px;
+    padding: 0px;
+    padding-bottom: 0;
+    height: 255px;
+    margin-top: 0;
+    padding-top: 0%;
+  }
+
+  .mobile {
+    margin-left: 10%;
+    margin-top: 40%;
+    width: 60%;
+  }
+}
+
+@media (min-width: 375px) and (max-width:411px) {
+  .upper-svg {
+    background: url(../../assets/img/svg.svg);
+    background-repeat: no-repeat;
+    background-size: 130% 80%;
+    background-position: 90% 190%;
+  }
+
+  .carousel-caption {
+    text-align: left;
+    margin-left: -11%;
+    top: 20%;
+
+  }
+
+  .mobile {
+    margin-left: 15%;
+    margin-top: 50%;
+    width: 60%;
+  }
+
+  .hey {
+    margin-left: 10%;
+    margin-top: 40%;
+    width: 250px;
+  }
+
+
+
+  /*
+  .carousel-caption {
+    text-align: left;
+    margin-left: -9%;
+    top: 20%;
+}*/
+
+  .col-md-6.svg-down {
+    width: 135%;
+    height: 579%;
+    background-image: url('../../assets/img/svgg.svg');
+    background-size: cover;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+  }
+
+  .people {
+    width: 132%;
+    max-width: 55%;
+    max-height: defult;
+    margin: 0;
+    margin-left: 120px;
+    margin-bottom: 0px;
+    padding: 0px;
+    padding-bottom: 0;
+    height: 255px;
+    min-height: default;
+    margin-top: 31;
+    padding-top: -22%;
+    margin-right: 136px;
+    padding-left: 27px;
+    top: 18px;
+  }
+
+  .women {
+    width: 100%;
+    max-width: 35%;
+    margin: 0;
+    margin-left: 45%;
+    margin-bottom: 0px;
+    padding: 0px;
+    padding-bottom: 0;
+    height: 255px;
+    margin-top: 0;
+    padding-top: 0%;
+  }
+
+}
+
+@media (min-width: 300px) and (max-width:374px) {
+  .upper-svg {
+    width: initial;
+    height: initial;
+    background: url(../../assets/img/svg.svg);
+    background-repeat: no-repeat;
+    background-size: 130% 80%;
+    background-position: 100% 220%;
+  }
+
+  .carousel-caption {
+    text-align: left;
+    margin-left: -11%;
+    top: 20%;
+
+  }
+
+  .mobile {
+    margin-left: 50%;
+    margin-top: 70%;
+    width: 220px;
+  }
+
+  .col-md-6.svg-down {
+    width: 135%;
+    height: 579%;
+    background-image: url('../../assets/img/svgg.svg');
+    background-size: cover;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+  }
+
+  .people {
+    width: 132%;
+    max-width: 55%;
+    max-height: defult;
+    margin: 0;
+    margin-left: 120px;
+    margin-bottom: 0px;
+    padding: 0px;
+    padding-bottom: 0;
+    height: 255px;
+    min-height: default;
+    margin-top: 31;
+    padding-top: -22%;
+    margin-right: 136px;
+    padding-left: 27px;
+    top: 18px;
+  }
+
+  .women {
+    width: 100%;
+    max-width: 35%;
+    margin: 0;
+    margin-left: 45%;
+    margin-bottom: 0px;
+    padding: 0px;
+    padding-bottom: 0;
+    height: 255px;
+    margin-top: 0;
+    padding-top: 0%;
+  }
+
+  .hey {
+    margin-left: 5%;
+    margin-top: 50%;
+    width: 69%;
+  }
+
+  .mobile {
+    margin-left: 10%;
+    margin-top: 40%;
+    width: 70%;
+  }
+
+  /*
+  .carousel-caption {
+    text-align: left;
+    margin-left: -9%;
+    top: 20%;
+}*/
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+@media (min-width: 768px) and (max-width:991px) {}
+
+@media (min-width: 576px) and (max-width:767px) {}
+
+@media (min-width: 300px) and (max-width:575px) {}
+
+
+
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+@media (min-width: 768px) and (max-width: 991px) {}
+
+@media (min-width: 576px) and (max-width:767px) {}
+
+@media (min-width: 300px) and (max-width:575px) {}
+
+
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+@media (min-width: 768px) and (max-width:991px) {}
+
+@media (min-width: 576px) and (max-width:767px) {}
+
+@media (min-width: 300px) and (max-width:575px) {}
+
+@media (min-width: 300px) and (max-width:374px) {}
+
+@media (min-width: 375px) and (max-width:441px) {}
+
+@media (min-width: 412px) and (max-width:575px) {}
+
+@media (min-width: 576px) and (max-width:767px) {}
+
+@media (min-width: 768px) and (max-width:991px) {}
+
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+
+@media (min-width:300px) and (max-width:374px) {}
+
+@media (min-width: 375px) and (max-width:441px) {}
+
+@media (min-width: 412px) and (max-width:575px) {}
+
+@media (min-width: 768px) and (max-width:991px) {}
+
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+
+
+
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+@media (min-width: 768px) and (max-width:991px) {}
+
+@media (min-width: 412px) and (max-width:575px) {}
+
+@media (min-width: 375px) and (max-width:441px) {}
+
+
+@media (min-width:300px) and (max-width:374px) {}
